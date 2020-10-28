@@ -14,7 +14,7 @@ const App = () => {
 
     return (
         <div className="App">
-            <Header />
+            <Header data-test="header-component" />
             <aside>
                 <RelatedSearches />
             </aside>
@@ -28,7 +28,7 @@ const App = () => {
             <aside>
                 <SortResults />
             </aside>
-            <Footer />
+            <Footer data-test="footer-component" />
         </div>
     );
 };
