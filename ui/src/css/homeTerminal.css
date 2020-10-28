@@ -1,0 +1,816 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:900,400,700,300|Roboto:400,700,500,300,900');
+
+@font-face {
+  font-family: "FontAwesome";
+  src: url('../fonts/FontAwesome.otf') format("opentype");
+}
+@font-face {
+  font-family: "SourceSansPro-SemiBold";
+  src: url('../fonts/SourceSansPro-SemiBold.ttf') format("truetype");
+}
+
+.hometerminal {
+  width               : 100%;
+  min-width           : 1440px;
+  height              : 100vh;
+  min-height          : 930px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background-color    : rgba(42, 44, 47, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.hometerminal .elementskeletonbanners {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -2px;
+  height              : 935px;
+  width               : 1444px;
+  position            : absolute;
+  margin              : 0;
+  left                : -2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.hometerminal .elementskeletonbanners .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 932px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.hometerminal .elementskeletonbanners .skeletonelements {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 935px;
+  width               : 1444px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.hometerminal .elementskeletonbanners .skeletonelements .rectangle22 {
+  background-color    : rgba(20, 21, 23, 1.0);
+  top                 : 885px;
+  height              : 50px;
+  width               : 1444px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(51, 52, 55, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.hometerminal .elementskeletonbanners .skeletonelements .rectangle21 {
+  background-color    : rgba(20, 21, 23, 1.0);
+  top                 : 0px;
+  height              : 49px;
+  width               : 1444px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(51, 52, 55, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.hometerminal .elementskeletonbanners .skeletonelements .getstarted {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 903px;
+  height              : auto;
+  width               : 89px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1331px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(249, 142, 0, 1.0);
+  text-align          : right;
+  line-height         : 20.0px;
+}
+.hometerminal .elementskeletonbanners .skeletonelements .aboutskilldar {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 903px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1211px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(0, 152, 62, 1.0);
+  text-align          : right;
+  line-height         : 20.0px;
+}
+.hometerminal .elementskeletonbanners .skeletonelements .privacy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 901px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 91px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(145, 146, 149, 1.0);
+  text-align          : left;
+  line-height         : 20.0px;
+}
+.hometerminal .elementskeletonbanners .skeletonelements .terms {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 901px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(145, 146, 149, 1.0);
+  text-align          : left;
+  line-height         : 20.0px;
+}
+.hometerminal .elementskeletonbanners .skeletonelements .iconsskilldarlogin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 20px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1398px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.hometerminal .elementskeletonbanners .skeletonelements .iconsskilldarlogin .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.hometerminal .elementskeletonbanners .skeletonelements .iconsskilldarlogin .signinfontawesome {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+}
+.hometerminal .elementskeletonbanners .skeletonelements .login {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1349px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(80, 120, 191, 1.0);
+  text-align          : right;
+  line-height         : 20.0px;
+}
+.hometerminal .elementskeletonbanners .skeletonelements .iconsfacebook {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 20px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1309px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.hometerminal .elementskeletonbanners .skeletonelements .iconsfacebook .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.hometerminal .elementskeletonbanners .skeletonelements .iconsfacebook .twitter16 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.hometerminal .elementskeletonbanners .skeletonelements .iconsfacebook .twitter16 .rectangle1 {
+  background-color    : rgba(141, 141, 142, 1.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.hometerminal .elementskeletonbanners .skeletonelements .iconsfacebook .twitter16 .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 11px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.hometerminal .elementskeletonbanners .skeletonelements .iconsinstagram {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 20px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1280px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.hometerminal .elementskeletonbanners .skeletonelements .iconsinstagram .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.hometerminal .elementskeletonbanners .skeletonelements .iconsinstagram .instagramfontawesome {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.hometerminal .elementskeletonbanners .skeletonelements .browseskills {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 20px;
+  width               : 102px;
+  position            : absolute;
+  margin              : 0;
+  left                : 53px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.hometerminal .elementskeletonbanners .skeletonelements .iconsskilldarhashtag {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.hometerminal .elementskeletonbanners .skeletonelements .iconsskilldarhashtag .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.hometerminal .elementskeletonbanners .skeletonelements .iconsskilldarhashtag .uf292 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "FontAwesome", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(237, 22, 55, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.hometerminal .rectangle6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 904px;
+  height              : 14px;
+  width               : 111px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1209px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.hometerminal .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : 21px;
+  width               : 138px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.hometerminal .buttonmainjoinbutton {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 550px;
+  height              : 152px;
+  width               : 152px;
+  position            : absolute;
+  margin              : 0;
+  left                : 796px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.hometerminal .buttonmainjoinbutton .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 149px;
+  width               : 149px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.hometerminal .buttonmainjoinbutton .buttonjoingreenactive {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 152px;
+  width               : 152px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.hometerminal .buttonmainjoinbutton .buttonjoingreenactive .rectangle1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 152px;
+  width               : 152px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.hometerminal .buttonmainjoinbutton .buttonjoingreenactive .rectanglecopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 144px;
+  width               : 145px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(180deg); /* IE 9 */
+  -webkit-transform   : rotate(180deg); /* Chrome, Safari, Opera */
+  transform           : rotate(180deg);
+}
+.hometerminal .buttonmainjoinbutton .buttonjoingreenactive .join {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 85px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 51px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "SourceSansPro-SemiBold", Helvetica, Arial, serif;
+  font-size           : 19.0px;
+  color               : rgba(42, 44, 47, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.34px;
+  line-height         : 24.0px;
+}
+.hometerminal .buttonmainjoinbutton .buttonjoingreenactive .plusfontawesome {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 46px;
+  height              : 30px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 60px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+}
+.hometerminal .buttonmainloginbutton {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 550px;
+  height              : 151px;
+  width               : 152px;
+  position            : absolute;
+  margin              : 0;
+  left                : 495px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.hometerminal .buttonmainloginbutton .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 149px;
+  width               : 149px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.hometerminal .buttonmainloginbutton .buttonloginsquareblueactive {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 151px;
+  width               : 152px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.hometerminal .buttonmainloginbutton .buttonloginsquareblueactive .rectangle1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 151px;
+  width               : 152px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.hometerminal .buttonmainloginbutton .buttonloginsquareblueactive .signinfontawesome {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 46px;
+  height              : 30px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 57px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+}
+.hometerminal .buttonmainloginbutton .buttonloginsquareblueactive .rectanglecopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 144px;
+  width               : 145px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(180deg); /* IE 9 */
+  -webkit-transform   : rotate(180deg); /* Chrome, Safari, Opera */
+  transform           : rotate(180deg);
+}
+.hometerminal .buttonmainloginbutton .buttonloginsquareblueactive .login {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 90px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 44px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "SourceSansPro-SemiBold", Helvetica, Arial, serif;
+  font-size           : 19.0px;
+  color               : rgba(42, 44, 47, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.34px;
+  line-height         : 24.0px;
+}
+.hometerminal .elementsearchfield {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 440px;
+  height              : 48px;
+  width               : 453px;
+  position            : absolute;
+  margin              : 0;
+  left                : 495px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.hometerminal .elementsearchfield .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 450px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.hometerminal .elementsearchfield .searchfield {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 48px;
+  width               : 453px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.hometerminal .elementsearchfield .searchfield .searchcontainer {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 48px;
+  width               : 453px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.hometerminal .elementsearchfield .searchfield .iconsearch {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 14px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 417px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.5;
+}
+.hometerminal .elementsearchfield .searchfield .iconsearch .searchmaterial {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 14px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.hometerminal .elementsearchfield .searchfield .search {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.5;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 19.0px;
+}
+.hometerminal .logo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 184px;
+  height              : 226px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 616px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.hometerminal .logo .logoskilldarradar {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 226px;
+  width               : 208px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.hometerminal .logo .logoskilldarradar .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 226px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.hometerminal .logo .logoskilldarradar .darkverticalv32 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 198px;
+  width               : 175px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.hometerminal .rectangle2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : 21px;
+  width               : 69px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1352px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}

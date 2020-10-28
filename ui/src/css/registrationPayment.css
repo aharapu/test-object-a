@@ -1,0 +1,1757 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:900,400,700,300|Roboto:400,700,500,300,900');
+
+@font-face {
+  font-family: "FontAwesome";
+  src: url('../fonts/FontAwesome.otf') format("opentype");
+}
+@font-face {
+  font-family: "SourceSansPro-SemiBold";
+  src: url('../fonts/SourceSansPro-SemiBold.ttf') format("truetype");
+}
+
+.registrationpayment {
+  width               : 100%;
+  min-width           : 1440px;
+  height              : 100vh;
+  min-height          : 1076px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background-color    : rgba(42, 44, 47, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.registrationpayment .elementskeletonbasesearchfield {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -6px;
+  height              : 1083px;
+  width               : 1444px;
+  position            : absolute;
+  margin              : 0;
+  left                : -2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .elementskeletonbasesearchfield .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 1080px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .elementskeletonbasesearchfield .skeletonelements {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1083px;
+  width               : 1444px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .elementskeletonbasesearchfield .skeletonelements .rectangle2 {
+  background-color    : rgba(20, 21, 23, 1.0);
+  top                 : 1033px;
+  height              : 50px;
+  width               : 1444px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(51, 52, 55, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .elementskeletonbasesearchfield .skeletonelements .rectangle21 {
+  background-color    : rgba(20, 21, 23, 1.0);
+  top                 : 0px;
+  height              : 49px;
+  width               : 1444px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(51, 52, 55, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .elementskeletonbasesearchfield .skeletonelements .getstarted {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1051px;
+  height              : auto;
+  width               : 89px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1331px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(249, 142, 0, 1.0);
+  text-align          : right;
+  line-height         : 20.0px;
+}
+.registrationpayment .elementskeletonbasesearchfield .skeletonelements .aboutskilldar {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1051px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1211px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(0, 152, 62, 1.0);
+  text-align          : right;
+  line-height         : 20.0px;
+}
+.registrationpayment .elementskeletonbasesearchfield .skeletonelements .privacy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1049px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 91px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(145, 146, 149, 1.0);
+  text-align          : left;
+  line-height         : 20.0px;
+}
+.registrationpayment .elementskeletonbasesearchfield .skeletonelements .terms {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1049px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(145, 146, 149, 1.0);
+  text-align          : left;
+  line-height         : 20.0px;
+}
+.registrationpayment .elementskeletonbasesearchfield .skeletonelements .elementssearchfieldlogo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 69px;
+  height              : 49px;
+  width               : 723px;
+  position            : absolute;
+  margin              : 0;
+  left                : 354px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .elementskeletonbasesearchfield .skeletonelements .elementssearchfieldlogo .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 49px;
+  width               : 720px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .elementskeletonbasesearchfield .skeletonelements .elementssearchfieldlogo .searchfield {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 49px;
+  width               : 723px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .elementskeletonbasesearchfield .skeletonelements .elementssearchfieldlogo .searchfield .searchcontainer {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 48px;
+  width               : 488px;
+  position            : absolute;
+  margin              : 0;
+  left                : 235px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .elementskeletonbasesearchfield .skeletonelements .elementssearchfieldlogo .searchfield .iconsearch {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 690px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.5;
+}
+.registrationpayment .elementskeletonbasesearchfield .skeletonelements .elementssearchfieldlogo .searchfield .iconsearch .searchmaterial {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 15px;
+  width               : 15px;
+  position            : relative;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .elementskeletonbasesearchfield .skeletonelements .elementssearchfieldlogo .searchfield .search {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : 36px;
+  width               : 52px;
+  position            : absolute;
+  margin              : 0;
+  left                : 251px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .elementskeletonbasesearchfield .skeletonelements .elementssearchfieldlogo .searchfield .search .search1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.5;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 19.0px;
+}
+.registrationpayment .elementskeletonbasesearchfield .skeletonelements .elementssearchfieldlogo .searchfield .logoskilldarreclight {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 27px;
+  width               : 215px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .elementskeletonbasesearchfield .skeletonelements .elementssearchfieldlogo .searchfield .logoskilldarreclight .background2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 27px;
+  width               : 215px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .elementskeletonbasesearchfield .skeletonelements .elementssearchfieldlogo .searchfield .logoskilldarreclight .darkhorizontalv3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 27px;
+  width               : 214px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .elementskeletonbasesearchfield .skeletonelements .iconsskilldarlogin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 20px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1398px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .elementskeletonbasesearchfield .skeletonelements .iconsskilldarlogin .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .elementskeletonbasesearchfield .skeletonelements .iconsskilldarlogin .signinfontawesome {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+}
+.registrationpayment .elementskeletonbasesearchfield .skeletonelements .login {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1349px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(80, 120, 191, 1.0);
+  text-align          : right;
+  line-height         : 20.0px;
+}
+.registrationpayment .elementskeletonbasesearchfield .skeletonelements .iconsfacebook {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 20px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1309px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .elementskeletonbasesearchfield .skeletonelements .iconsfacebook .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .elementskeletonbasesearchfield .skeletonelements .iconsfacebook .twitter16 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .elementskeletonbasesearchfield .skeletonelements .iconsfacebook .twitter16 .rectangle {
+  background-color    : rgba(141, 141, 142, 1.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .elementskeletonbasesearchfield .skeletonelements .iconsfacebook .twitter16 .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 11px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .elementskeletonbasesearchfield .skeletonelements .iconsinstagram {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 20px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1280px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .elementskeletonbasesearchfield .skeletonelements .iconsinstagram .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .elementskeletonbasesearchfield .skeletonelements .iconsinstagram .instagramfontawesome {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .elementskeletonbasesearchfield .skeletonelements .browseskills {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 20px;
+  width               : 102px;
+  position            : absolute;
+  margin              : 0;
+  left                : 53px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .elementskeletonbasesearchfield .skeletonelements .iconsskilldarhashtag {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .elementskeletonbasesearchfield .skeletonelements .iconsskilldarhashtag .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .elementskeletonbasesearchfield .skeletonelements .iconsskilldarhashtag .uf292 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "FontAwesome", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(237, 22, 55, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.registrationpayment .backgroundupperlvl1440x845 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 43px;
+  height              : 986px;
+  width               : 1442px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .backgroundupperlvl1440x845 .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 986px;
+  width               : 1441px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .backgroundupperlvl1440x845 .backgroundupperlvl1440x8451 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 986px;
+  width               : 1442px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .backgroundupperlvl1440x845 .backgroundupperlvl1440x8451 .linecopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 983px;
+  height              : 2px;
+  width               : 1442px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .backgroundupperlvl1440x845 .backgroundupperlvl1440x8451 .rectangle3 {
+  background-color    : rgba(176, 179, 181, 0.84);
+  top                 : 2px;
+  height              : 982px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .backgroundupperlvl1440x845 .backgroundupperlvl1440x8451 .rectangle3copy {
+  background-color    : rgba(239, 243, 245, 0.85);
+  top                 : 12px;
+  height              : 961px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .backgroundupperlvl1440x845 .backgroundupperlvl1440x8451 .rectangle3copy2 {
+  background-color    : rgba(239, 242, 245, 1.0);
+  top                 : 42px;
+  height              : 901px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .backgroundupperlvl1440x845 .backgroundupperlvl1440x8451 .line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 3px;
+  width               : 1442px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .infofields {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 348px;
+  height              : 597px;
+  width               : 450px;
+  position            : absolute;
+  margin              : 0;
+  left                : 495px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .infofields .container450x400white {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 197px;
+  height              : 400px;
+  width               : 450px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .infofields .container450x400white .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 400px;
+  width               : 450px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .infofields .container450x400white .rectangle5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 400px;
+  width               : 450px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(239, 242, 245, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .infofields .orpaypal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 576px;
+  height              : 21px;
+  width               : 186px;
+  position            : absolute;
+  margin              : 0;
+  left                : 120px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .infofields .orpaypal .arrownext {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 21px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 174px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .infofields .orpaypal .arrownext .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 21px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .infofields .orpaypal .arrownext .shapecopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : 10px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : -4px;
+  -ms-transform       : rotate(270deg); /* IE 9 */
+  -webkit-transform   : rotate(270deg); /* Chrome, Safari, Opera */
+  transform           : rotate(270deg);
+}
+.registrationpayment .infofields .orpaypal .paypal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : 16px;
+  width               : 60px;
+  position            : absolute;
+  margin              : 0;
+  left                : 106px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .infofields .orpaypal .orpaywith {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(42, 44, 47, 1.0);
+  text-align          : right;
+  letter-spacing      : 0.9px;
+  line-height         : 16.0px;
+}
+.registrationpayment .infofields .lockhttps {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 484px;
+  height              : 49px;
+  width               : 63px;
+  position            : absolute;
+  margin              : 0;
+  left                : 290px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .infofields .lockhttps .lock24 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 18px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .infofields .lockhttps .lock24 .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 16px;
+  width               : 13px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .infofields .lockhttps .lock24 .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 16px;
+  width               : 13px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .infofields .lockhttps .lock24 .shape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 16px;
+  width               : 13px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .infofields .lockhttps .https {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "SourceSansPro-SemiBold", Helvetica, Arial, serif;
+  font-size           : 13.0px;
+  color               : rgba(42, 44, 47, 1.0);
+  text-align          : center;
+  line-height         : 17.0px;
+}
+.registrationpayment .infofields .lockhttps .mcafee {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 26px;
+  height              : 23px;
+  width               : 63px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .infofields .loginbutton {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 477px;
+  height              : 59px;
+  width               : 173px;
+  position            : absolute;
+  margin              : 0;
+  left                : 106px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .infofields .loginbutton .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 170px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .infofields .loginbutton .loginbutton1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 59px;
+  width               : 173px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .infofields .loginbutton .loginbutton1 .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 59px;
+  width               : 173px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .infofields .loginbutton .loginbutton1 .rectanglecopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 170px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .infofields .loginbutton .loginbutton1 .play {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 20px;
+  height              : 17px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 122px;
+  -ms-transform       : rotate(1deg); /* IE 9 */
+  -webkit-transform   : rotate(1deg); /* Chrome, Safari, Opera */
+  transform           : rotate(1deg);
+  opacity             : 0.9;
+}
+.registrationpayment .infofields .loginbutton .loginbutton1 .txt {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 18px;
+  height              : auto;
+  width               : 88px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "Source Sans Pro", Helvetica, Arial, serif;
+  font-weight         : 900;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : right;
+  letter-spacing      : 1.53px;
+  line-height         : 23.0px;
+}
+.registrationpayment .infofields .warnings {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 228px;
+  height              : 157px;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 118px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .infofields .warnings .redexclamation {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 140px;
+  height              : 17px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 255px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .infofields .warnings .redexclamation .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 17px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .infofields .warnings .redexclamation .a2excl {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 17px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .infofields .warnings .redexclamation .a2excl .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .infofields .warnings .redexclamation .a2excl .shape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 10px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .infofields .warnings .pleaseenteravalid {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 214px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.95;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(237, 22, 55, 1.0);
+  text-align          : center;
+  line-height         : 14.0px;
+}
+.registrationpayment .infofields .expirationdate {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 409px;
+  height              : 42px;
+  width               : 321px;
+  position            : absolute;
+  margin              : 0;
+  left                : 44px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .infofields .expirationdate .rectangle5copy {
+  background-color    : rgba(176, 179, 181, 1.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 111px;
+  border-radius       : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .infofields .expirationdate .rectangle5copy2 {
+  background-color    : rgba(176, 179, 181, 1.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 161px;
+  border-radius       : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .infofields .expirationdate .rectangle5copy3 {
+  background-color    : rgba(176, 179, 181, 1.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 70px;
+  position            : absolute;
+  margin              : 0;
+  left                : 251px;
+  border-radius       : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .infofields .expirationdate .expirationdate1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(42, 44, 47, 1.0);
+  text-align          : right;
+  line-height         : 16.0px;
+}
+.registrationpayment .infofields .expirationdate .cvc {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 214px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(42, 44, 47, 1.0);
+  text-align          : right;
+  line-height         : 16.0px;
+}
+.registrationpayment .infofields .creditcardnumber {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 357px;
+  height              : 42px;
+  width               : 350px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .infofields .creditcardnumber .rectangle5copy {
+  background-color    : rgba(176, 179, 181, 1.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 210px;
+  position            : absolute;
+  margin              : 0;
+  left                : 140px;
+  border-radius       : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .infofields .creditcardnumber .creditcardnumber1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(42, 44, 47, 1.0);
+  text-align          : right;
+  line-height         : 16.0px;
+}
+.registrationpayment .infofields .nameoncard {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 303px;
+  height              : 42px;
+  width               : 315px;
+  position            : absolute;
+  margin              : 0;
+  left                : 50px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .infofields .nameoncard .rectangle5copy {
+  background-color    : rgba(176, 179, 181, 1.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 210px;
+  position            : absolute;
+  margin              : 0;
+  left                : 105px;
+  border-radius       : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .infofields .nameoncard .nameoncard1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(42, 44, 47, 1.0);
+  text-align          : right;
+  line-height         : 16.0px;
+}
+.registrationpayment .infofields .issuer {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 256px;
+  height              : 37px;
+  width               : 217px;
+  position            : absolute;
+  margin              : 0;
+  left                : 101px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .infofields .issuer .icons8mastercardfilled500 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 31px;
+  width               : 43px;
+  position            : absolute;
+  margin              : 0;
+  left                : 174px;
+  border-radius       : 4px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .infofields .issuer .icons8mastercardfilled500 .mask {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 31px;
+  width               : 43px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 4px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(176, 179, 181, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .infofields .issuer .icons8mastercardfilled500 .icons8mastercardfilled5001 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 29px;
+  width               : 41px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .infofields .issuer .visa {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 37px;
+  width               : 47px;
+  position            : absolute;
+  margin              : 0;
+  left                : 84px;
+  border-radius       : 4px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .infofields .issuer .visa .mask {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 37px;
+  width               : 47px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 4px;
+  border-style        : solid;
+  border-width        : 4px;
+  border-color        : rgba(80, 120, 191, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .infofields .issuer .visa .visa1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 30px;
+  width               : 39px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .infofields .issuer .issuer1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(42, 44, 47, 1.0);
+  text-align          : right;
+  line-height         : 16.0px;
+}
+.registrationpayment .infofields .titleinformation {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 209px;
+  width               : 310px;
+  position            : absolute;
+  margin              : 0;
+  left                : 70px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .infofields .titleinformation .theamountwillbec {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 178px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(42, 44, 47, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.registrationpayment .infofields .titleinformation .fieldmobiledropdownhalf {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 75px;
+  height              : 85px;
+  width               : 299px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .infofields .titleinformation .fieldmobiledropdownhalf .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 85px;
+  width               : 295px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .infofields .titleinformation .fieldmobiledropdownhalf .fieldmobiledropdownhalf1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 85px;
+  width               : 299px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .infofields .titleinformation .fieldmobiledropdownhalf .fieldmobiledropdownhalf1 .fieldmobiledropdownfield {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 85px;
+  width               : 299px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .infofields .titleinformation .fieldmobiledropdownhalf .fieldmobiledropdownhalf1 .fieldmobiledropdownfield .roleatcompany {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 85px;
+  width               : 299px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .infofields .titleinformation .fieldmobiledropdownhalf .fieldmobiledropdownhalf1 .fieldmobiledropdownfield .roleatcompany .rectangle5copy2 {
+  background-color    : rgba(239, 242, 245, 1.0);
+  top                 : 21px;
+  height              : 66px;
+  width               : 295px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  border-radius       : 5px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(141, 141, 142, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .infofields .titleinformation .fieldmobiledropdownhalf .fieldmobiledropdownhalf1 .fieldmobiledropdownfield .roleatcompany .rectangle5 {
+  background-color    : rgba(239, 242, 245, 1.0);
+  top                 : 0px;
+  height              : 27px;
+  width               : 299px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(80, 120, 191, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .infofields .titleinformation .fieldmobiledropdownhalf .fieldmobiledropdownhalf1 .fieldmobiledropdownfield .roleatcompany .u20ac4995quarter3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : auto;
+  width               : 250px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(80, 120, 191, 1.0);
+  text-align          : justify;
+  line-height         : 14.0px;
+}
+.registrationpayment .infofields .titleinformation .fieldmobiledropdownhalf .fieldmobiledropdownhalf1 .fieldmobiledropdownfield .roleatcompany .shapecopy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 8px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 272px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .infofields .titleinformation .fieldmobiledropdownhalf .fieldmobiledropdownhalf1 .fieldmobiledropdownfield .roleatcompany .u20ac4995quarter31 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 60px;
+  height              : auto;
+  width               : 272px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 11.0px;
+  color               : rgba(19, 21, 23, 1.0);
+  text-align          : justify;
+  line-height         : 13.0px;
+}
+.registrationpayment .infofields .titleinformation .fieldmobiledropdownhalf .fieldmobiledropdownhalf1 .fieldmobiledropdownfield .roleatcompany .owner {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 36px;
+  height              : auto;
+  width               : 272px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 11.0px;
+  color               : rgba(19, 21, 23, 1.0);
+  text-align          : justify;
+  line-height         : 13.0px;
+}
+.registrationpayment .infofields .titleinformation .a1xpremiumsubscrip {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 29px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(42, 44, 47, 1.0);
+  text-align          : center;
+  line-height         : 16.0px;
+}
+.registrationpayment .infofields .titleinformation .subscriptionpayment {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 48px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(41, 44, 47, 1.0);
+  text-align          : justify;
+  line-height         : 21.0px;
+}
+.registrationpayment .newprofileline {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 308px;
+  height              : 20px;
+  width               : 571px;
+  position            : absolute;
+  margin              : 0;
+  left                : 421px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .newprofileline .newprofile {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 100px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "SourceSansPro-SemiBold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(42, 44, 47, 1.0);
+  text-align          : left;
+  line-height         : 20.0px;
+}
+.registrationpayment .newprofileline .moduleproglinecomplete {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 2px;
+  width               : 440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 131px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .newprofileline .moduleproglinecomplete .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 2px;
+  width               : 440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .newprofileline .moduleproglinecomplete .completionline {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 2px;
+  width               : 440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .newprofileline .moduleproglinecomplete .completionline .completionlinefull {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 2px;
+  width               : 440px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .newprofileline .moduleproglinecomplete .completionline .completionlinefull .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 2px;
+  width               : 440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .newprofileline .moduleproglinecomplete .completionline .completionlinefull .completionlinefull1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 2px;
+  width               : 440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .logoskilldarradardark {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 133px;
+  height              : 147px;
+  width               : 137px;
+  position            : absolute;
+  margin              : 0;
+  left                : 652px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .logoskilldarradardark .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 147px;
+  width               : 137px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationpayment .logoskilldarradardark .lighthorizontalv32 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7px;
+  height              : 129px;
+  width               : 115px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}

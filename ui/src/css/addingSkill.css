@@ -1,0 +1,1464 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:900,400,700,300|Roboto:400,700,500,300,900');
+
+@font-face {
+  font-family: "FontAwesome";
+  src: url('../fonts/FontAwesome.otf') format("opentype");
+}
+@font-face {
+  font-family: "SourceSansPro-SemiBold";
+  src: url('../fonts/SourceSansPro-SemiBold.ttf') format("truetype");
+}
+
+.addingskill {
+  width               : 100%;
+  min-width           : 1444px;
+  height              : 100vh;
+  min-height          : 1063px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background-color    : rgba(42, 44, 47, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.addingskill .elementskeletonbanners {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1064px;
+  width               : 1444px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .elementskeletonbanners .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 1061px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .elementskeletonbanners .skeletonelements {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1064px;
+  width               : 1444px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .elementskeletonbanners .skeletonelements .rectangle2 {
+  background-color    : rgba(20, 21, 23, 1.0);
+  top                 : 1014px;
+  height              : 50px;
+  width               : 1444px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(51, 52, 55, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .elementskeletonbanners .skeletonelements .rectangle21 {
+  background-color    : rgba(20, 21, 23, 1.0);
+  top                 : 0px;
+  height              : 49px;
+  width               : 1444px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(51, 52, 55, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .elementskeletonbanners .skeletonelements .getstarted {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1032px;
+  height              : auto;
+  width               : 89px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1331px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(249, 142, 0, 1.0);
+  text-align          : right;
+  line-height         : 20.0px;
+}
+.addingskill .elementskeletonbanners .skeletonelements .aboutskilldar {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1032px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1211px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(0, 152, 62, 1.0);
+  text-align          : right;
+  line-height         : 20.0px;
+}
+.addingskill .elementskeletonbanners .skeletonelements .privacy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1030px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 91px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(145, 146, 149, 1.0);
+  text-align          : left;
+  line-height         : 20.0px;
+}
+.addingskill .elementskeletonbanners .skeletonelements .terms {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1030px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(145, 146, 149, 1.0);
+  text-align          : left;
+  line-height         : 20.0px;
+}
+.addingskill .elementskeletonbanners .skeletonelements .iconsskilldarlogin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 20px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1398px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .elementskeletonbanners .skeletonelements .iconsskilldarlogin .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .elementskeletonbanners .skeletonelements .iconsskilldarlogin .signinfontawesome {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+}
+.addingskill .elementskeletonbanners .skeletonelements .login {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1349px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(80, 120, 191, 1.0);
+  text-align          : right;
+  line-height         : 20.0px;
+}
+.addingskill .elementskeletonbanners .skeletonelements .iconsfacebook {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 20px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1309px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .elementskeletonbanners .skeletonelements .iconsfacebook .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .elementskeletonbanners .skeletonelements .iconsfacebook .twitter16 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .elementskeletonbanners .skeletonelements .iconsfacebook .twitter16 .rectangle {
+  background-color    : rgba(141, 141, 142, 1.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .elementskeletonbanners .skeletonelements .iconsfacebook .twitter16 .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 11px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .elementskeletonbanners .skeletonelements .iconsinstagram {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 20px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1280px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .elementskeletonbanners .skeletonelements .iconsinstagram .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .elementskeletonbanners .skeletonelements .iconsinstagram .instagramfontawesome {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .elementskeletonbanners .skeletonelements .browseskills {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 20px;
+  width               : 102px;
+  position            : absolute;
+  margin              : 0;
+  left                : 53px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .elementskeletonbanners .skeletonelements .iconsskilldarhashtag {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .elementskeletonbanners .skeletonelements .iconsskilldarhashtag .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .elementskeletonbanners .skeletonelements .iconsskilldarhashtag .uf292 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "FontAwesome", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(237, 22, 55, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.addingskill .backgroundupperlvl1150x930 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 49px;
+  height              : 965px;
+  width               : 1442px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .backgroundupperlvl1150x930 .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 965px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .backgroundupperlvl1150x930 .backgroundupperlvl1440x845 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 965px;
+  width               : 1442px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .backgroundupperlvl1150x930 .backgroundupperlvl1440x845 .linecopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 962px;
+  height              : 2px;
+  width               : 1442px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .backgroundupperlvl1150x930 .backgroundupperlvl1440x845 .rectangle3 {
+  background-color    : rgba(176, 179, 181, 0.84);
+  top                 : 2px;
+  height              : 961px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .backgroundupperlvl1150x930 .backgroundupperlvl1440x845 .rectangle3copy {
+  background-color    : rgba(239, 243, 245, 0.85);
+  top                 : 12px;
+  height              : 940px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .backgroundupperlvl1150x930 .backgroundupperlvl1440x845 .rectangle3copy2 {
+  background-color    : rgba(239, 242, 245, 1.0);
+  top                 : 42px;
+  height              : 880px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .backgroundupperlvl1150x930 .backgroundupperlvl1440x845 .line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 3px;
+  width               : 1442px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .activateddropdown {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 658px;
+  height              : 45px;
+  width               : 211px;
+  position            : absolute;
+  margin              : 0;
+  left                : 734px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .activateddropdown .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 41px;
+  width               : 207px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .activateddropdown .joinasgrey {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 211px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .activateddropdown .joinasgrey .rectangle5 {
+  background-color    : rgba(176, 179, 181, 1.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 211px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(143, 169, 213, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .activateddropdown .joinasgrey .typein {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : auto;
+  width               : 166px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.addingskill .activateddropdown .joinasgrey .shapecopy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 18px;
+  height              : 10px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 179px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .activateddropdown1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 658px;
+  height              : 45px;
+  width               : 211px;
+  position            : absolute;
+  margin              : 0;
+  left                : 497px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .activateddropdown1 .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 41px;
+  width               : 207px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .activateddropdown1 .joinasgrey {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 211px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .activateddropdown1 .joinasgrey .rectangle5 {
+  background-color    : rgba(176, 179, 181, 1.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 211px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(143, 169, 213, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .activateddropdown1 .joinasgrey .typein {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : auto;
+  width               : 166px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.addingskill .activateddropdown1 .joinasgrey .shapecopy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 18px;
+  height              : 10px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 179px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .skilldropdown {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 289px;
+  height              : 266px;
+  width               : 210px;
+  position            : absolute;
+  margin              : 0;
+  left                : 738px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .skilldropdown .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 266px;
+  width               : 206px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .skilldropdown .skilldropdown1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 266px;
+  width               : 210px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .skilldropdown .skilldropdown1 .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 266px;
+  width               : 210px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .skilldropdown .skilldropdown1 .group .rectangle5copy2 {
+  background-color    : rgba(239, 242, 245, 1.0);
+  top                 : 36px;
+  height              : 232px;
+  width               : 206px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  border-radius       : 6px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(141, 141, 142, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .skilldropdown .skilldropdown1 .group .rectangle5 {
+  background-color    : rgba(239, 242, 245, 1.0);
+  top                 : 0px;
+  height              : 46px;
+  width               : 210px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(80, 120, 191, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .skilldropdown .skilldropdown1 .group .shapecopy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 19px;
+  height              : 10px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 165px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .skilldropdown .skilldropdown1 .a3danimationvfxeng {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 85px;
+  height              : auto;
+  width               : 167px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(19, 21, 23, 1.0);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.addingskill .skilldropdown .skilldropdown1 .visual {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 55px;
+  height              : auto;
+  width               : 88px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(19, 21, 23, 1.0);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.addingskill .skilldropdown .skilldropdown1 .a2ndskill {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : auto;
+  width               : 107px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(80, 120, 191, 1.0);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.addingskill .fielddropdownmediumselected {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 288px;
+  height              : 46px;
+  width               : 210px;
+  position            : absolute;
+  margin              : 0;
+  left                : 498px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .fielddropdownmediumselected .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 42px;
+  width               : 206px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .fielddropdownmediumselected .selectco {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 46px;
+  width               : 210px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .fielddropdownmediumselected .selectco .rectangle5copy2 {
+  background-color    : rgba(80, 120, 191, 1.0);
+  top                 : 0px;
+  height              : 46px;
+  width               : 210px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(176, 179, 181, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .fielddropdownmediumselected .selectco .shapecopy4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 18px;
+  height              : 10px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 174px;
+  -ms-transform       : rotate(-90deg); /* IE 9 */
+  -webkit-transform   : rotate(-90deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-90deg);
+}
+.addingskill .fielddropdownmediumselected .selectco .company {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : auto;
+  width               : 160px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.addingskill .inputanumberbetwe {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 630px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 506px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(237, 22, 55, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.addingskill .a1brick {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 419px;
+  height              : 198px;
+  width               : 121px;
+  position            : absolute;
+  margin              : 0;
+  left                : 541px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .a1brick .rectangle3copy {
+  background-color    : rgba(239, 242, 245, 1.0);
+  top                 : 81px;
+  height              : 117px;
+  width               : 121px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 6px;
+  border-style        : solid;
+  border-width        : 3px;
+  border-color        : rgba(42, 44, 47, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .a1brick .rectangle3 {
+  background-color    : rgba(239, 242, 245, 1.0);
+  top                 : 0px;
+  height              : 100px;
+  width               : 121px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 6px;
+  border-style        : solid;
+  border-width        : 3px;
+  border-color        : rgba(42, 44, 47, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .a1brick .infoicon {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 168px;
+  height              : 17px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 54px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .a1brick .infoicon .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 17px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .a1brick .infoicon .infoicon1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .a1brick .infoicon .infoicon1 .info {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .a1brick .infoicon .infoicon1 .path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : 8px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .a1brick .infoicon .infoicon1 .path1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 2px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .a1brick .path3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 97px;
+  height              : 4px;
+  width               : 118px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .a1brick .engineer {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 64px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(31, 33, 35, 1.0);
+  text-align          : right;
+  line-height         : 20.0px;
+}
+.addingskill .a1brick .sfx {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 43px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 39px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(31, 33, 35, 1.0);
+  text-align          : right;
+  line-height         : 20.0px;
+}
+.addingskill .a1brick .uf292 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : auto;
+  width               : 23px;
+  position            : absolute;
+  margin              : 0;
+  left                : 52px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "FontAwesome", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(237, 22, 55, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.addingskill .a1brick .avgrateu20acinputp {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 111px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(31, 33, 35, 1.0);
+  text-align          : center;
+  line-height         : 16.0px;
+}
+.addingskill .inputtherateyouu2019d {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 347px;
+  height              : auto;
+  width               : 197px;
+  position            : absolute;
+  margin              : 0;
+  left                : 498px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(19, 21, 23, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.addingskill .titleinformation {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 198px;
+  height              : 32px;
+  width               : 359px;
+  position            : absolute;
+  margin              : 0;
+  left                : 543px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .titleinformation .addremoveorchang {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 359px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(19, 21, 23, 1.0);
+  text-align          : center;
+  line-height         : 16.0px;
+}
+.addingskill .logotopinformation {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 126px;
+  height              : 57px;
+  width               : 229px;
+  position            : absolute;
+  margin              : 0;
+  left                : 608px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .logotopinformation .yourskillsandopti {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 35px;
+  height              : auto;
+  width               : 231px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "SourceSansPro-SemiBold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(20, 21, 23, 1.0);
+  text-align          : left;
+  letter-spacing      : 1.75px;
+  line-height         : 20.0px;
+}
+.addingskill .logotopinformation .logoskilldarrecdark {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 25px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .logotopinformation .logoskilldarrecdark .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 25px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .logotopinformation .logoskilldarrecdark .lightverticalv32 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 207px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .buttonnextyellowactive {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 862px;
+  height              : 59px;
+  width               : 173px;
+  position            : absolute;
+  margin              : 0;
+  left                : 637px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .buttonnextyellowactive .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 170px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .buttonnextyellowactive .loginbutton {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 59px;
+  width               : 173px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .buttonnextyellowactive .loginbutton .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 59px;
+  width               : 173px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .buttonnextyellowactive .loginbutton .rectanglecopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 170px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .buttonnextyellowactive .loginbutton .play {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 20px;
+  height              : 17px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 122px;
+  -ms-transform       : rotate(1deg); /* IE 9 */
+  -webkit-transform   : rotate(1deg); /* Chrome, Safari, Opera */
+  transform           : rotate(1deg);
+  opacity             : 0.9;
+}
+.addingskill .buttonnextyellowactive .loginbutton .txt {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 18px;
+  height              : auto;
+  width               : 88px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "Source Sans Pro", Helvetica, Arial, serif;
+  font-weight         : 900;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : right;
+  letter-spacing      : 1.53px;
+  line-height         : 23.0px;
+}
+.addingskill .activateddropdown2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 759px;
+  height              : 45px;
+  width               : 211px;
+  position            : absolute;
+  margin              : 0;
+  left                : 497px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .activateddropdown2 .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 41px;
+  width               : 207px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .activateddropdown2 .joinasgrey {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 211px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .activateddropdown2 .joinasgrey .rectangle5 {
+  background-color    : rgba(176, 179, 181, 1.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 211px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(143, 169, 213, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.addingskill .activateddropdown2 .joinasgrey .typein {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : auto;
+  width               : 166px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.addingskill .activateddropdown2 .joinasgrey .shapecopy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 18px;
+  height              : 10px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 179px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}

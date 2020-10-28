@@ -1,0 +1,2449 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:900,400,700,300|Roboto:400,700,500,300,900');
+
+@font-face {
+  font-family: "FontAwesome";
+  src: url('../fonts/FontAwesome.otf') format("opentype");
+}
+@font-face {
+  font-family: "SourceSansPro-SemiBold";
+  src: url('../fonts/SourceSansPro-SemiBold.ttf') format("truetype");
+}
+
+.skillchoiceregistration {
+  width               : 100%;
+  min-width           : 1440px;
+  height              : 100vh;
+  min-height          : 1700px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background-color    : rgba(42, 44, 47, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.skillchoiceregistration .elementskeletonbanners {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -6px;
+  height              : 1704px;
+  width               : 1444px;
+  position            : absolute;
+  margin              : 0;
+  left                : -2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .elementskeletonbanners .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 1704px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .elementskeletonbanners .skeletonelements {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1706px;
+  width               : 1444px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .elementskeletonbanners .skeletonelements .rectangle2 {
+  background-color    : rgba(20, 21, 23, 1.0);
+  top                 : 1656px;
+  height              : 50px;
+  width               : 1444px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(51, 52, 55, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .elementskeletonbanners .skeletonelements .rectangle21 {
+  background-color    : rgba(20, 21, 23, 1.0);
+  top                 : 0px;
+  height              : 49px;
+  width               : 1444px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(51, 52, 55, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .elementskeletonbanners .skeletonelements .getstarted {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1674px;
+  height              : auto;
+  width               : 89px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1331px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(249, 142, 0, 1.0);
+  text-align          : right;
+  line-height         : 20.0px;
+}
+.skillchoiceregistration .elementskeletonbanners .skeletonelements .aboutskilldar {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1674px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1211px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(0, 152, 62, 1.0);
+  text-align          : right;
+  line-height         : 20.0px;
+}
+.skillchoiceregistration .elementskeletonbanners .skeletonelements .privacy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1672px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 91px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(145, 146, 149, 1.0);
+  text-align          : left;
+  line-height         : 20.0px;
+}
+.skillchoiceregistration .elementskeletonbanners .skeletonelements .terms {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1672px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(145, 146, 149, 1.0);
+  text-align          : left;
+  line-height         : 20.0px;
+}
+.skillchoiceregistration .elementskeletonbanners .skeletonelements .iconsskilldarlogin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 20px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1398px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .elementskeletonbanners .skeletonelements .iconsskilldarlogin .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .elementskeletonbanners .skeletonelements .iconsskilldarlogin .signinfontawesome {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+}
+.skillchoiceregistration .elementskeletonbanners .skeletonelements .login {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1349px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(80, 120, 191, 1.0);
+  text-align          : right;
+  line-height         : 20.0px;
+}
+.skillchoiceregistration .elementskeletonbanners .skeletonelements .iconsfacebook {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 20px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1309px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .elementskeletonbanners .skeletonelements .iconsfacebook .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .elementskeletonbanners .skeletonelements .iconsfacebook .twitter16 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .elementskeletonbanners .skeletonelements .iconsfacebook .twitter16 .rectangle {
+  background-color    : rgba(141, 141, 142, 1.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .elementskeletonbanners .skeletonelements .iconsfacebook .twitter16 .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 11px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .elementskeletonbanners .skeletonelements .iconsinstagram {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 20px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1280px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .elementskeletonbanners .skeletonelements .iconsinstagram .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .elementskeletonbanners .skeletonelements .iconsinstagram .instagramfontawesome {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .elementskeletonbanners .skeletonelements .browseskills {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 20px;
+  width               : 102px;
+  position            : absolute;
+  margin              : 0;
+  left                : 53px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .elementskeletonbanners .skeletonelements .iconsskilldarhashtag {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .elementskeletonbanners .skeletonelements .iconsskilldarhashtag .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .elementskeletonbanners .skeletonelements .iconsskilldarhashtag .uf292 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "FontAwesome", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(237, 22, 55, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.skillchoiceregistration .backgroundupperlvl1440x845 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 43px;
+  height              : 1608px;
+  width               : 1442px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .backgroundupperlvl1440x845 .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1608px;
+  width               : 1442px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .backgroundupperlvl1440x845 .backgroundupperlvl1440x8451 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1608px;
+  width               : 1442px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .backgroundupperlvl1440x845 .backgroundupperlvl1440x8451 .linecopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1604px;
+  height              : 4px;
+  width               : 1442px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .backgroundupperlvl1440x845 .backgroundupperlvl1440x8451 .rectangle3 {
+  background-color    : rgba(176, 179, 181, 0.84);
+  top                 : 2px;
+  height              : 1604px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .backgroundupperlvl1440x845 .backgroundupperlvl1440x8451 .rectangle3copy {
+  background-color    : rgba(239, 243, 245, 0.85);
+  top                 : 12px;
+  height              : 1583px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .backgroundupperlvl1440x845 .backgroundupperlvl1440x8451 .rectangle3copy2 {
+  background-color    : rgba(239, 242, 245, 1.0);
+  top                 : 42px;
+  height              : 1523px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .backgroundupperlvl1440x845 .backgroundupperlvl1440x8451 .line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 4px;
+  width               : 1442px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .loginbutton {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1519px;
+  height              : 59px;
+  width               : 173px;
+  position            : absolute;
+  margin              : 0;
+  left                : 635px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .loginbutton .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 170px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .loginbutton .loginbutton1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 59px;
+  width               : 173px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .loginbutton .loginbutton1 .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 59px;
+  width               : 173px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .loginbutton .loginbutton1 .rectanglecopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 170px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .loginbutton .loginbutton1 .play {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 20px;
+  height              : 17px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 122px;
+  -ms-transform       : rotate(1deg); /* IE 9 */
+  -webkit-transform   : rotate(1deg); /* Chrome, Safari, Opera */
+  transform           : rotate(1deg);
+  opacity             : 0.9;
+}
+.skillchoiceregistration .loginbutton .loginbutton1 .txt {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 18px;
+  height              : auto;
+  width               : 88px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "Source Sans Pro", Helvetica, Arial, serif;
+  font-weight         : 900;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : right;
+  letter-spacing      : 1.53px;
+  line-height         : 23.0px;
+}
+.skillchoiceregistration .bottomagreementinfo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1469px;
+  height              : 21px;
+  width               : 254px;
+  position            : absolute;
+  margin              : 0;
+  left                : 591px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .bottomagreementinfo .checkboxblack {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 21px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .bottomagreementinfo .checkboxblack .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 17px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .bottomagreementinfo .checkboxblack .checkboxblack1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 21px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .bottomagreementinfo .checkboxblack .checkboxblack1 .rectangle6copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 21px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 1px;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(20, 21, 23, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .bottomagreementinfo .checkboxblack .checkboxblack1 .tickblack {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 16px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .bottomagreementinfo .checkboxblack .checkboxblack1 .tickblack .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .bottomagreementinfo .checkboxblack .checkboxblack1 .tickblack .shapecopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .bottomagreementinfo .iacceptthetermso {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(31, 33, 35, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.53px;
+  line-height         : 14.0px;
+}
+.skillchoiceregistration .activateddropdown {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1368px;
+  height              : 45px;
+  width               : 211px;
+  position            : absolute;
+  margin              : 0;
+  left                : 498px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .activateddropdown .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 41px;
+  width               : 207px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .activateddropdown .joinasgrey {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 211px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .activateddropdown .joinasgrey .rectangle5 {
+  background-color    : rgba(176, 179, 181, 1.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 211px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(143, 169, 213, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .activateddropdown .joinasgrey .typein {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : auto;
+  width               : 166px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.skillchoiceregistration .activateddropdown .joinasgrey .shapecopy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 18px;
+  height              : 10px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 179px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .activateddropdown1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1267px;
+  height              : 45px;
+  width               : 211px;
+  position            : absolute;
+  margin              : 0;
+  left                : 735px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .activateddropdown1 .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 41px;
+  width               : 207px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .activateddropdown1 .joinasgrey {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 211px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .activateddropdown1 .joinasgrey .rectangle5 {
+  background-color    : rgba(176, 179, 181, 1.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 211px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(143, 169, 213, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .activateddropdown1 .joinasgrey .typein {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : auto;
+  width               : 166px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.skillchoiceregistration .activateddropdown1 .joinasgrey .shapecopy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 18px;
+  height              : 10px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 179px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .activateddropdown2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1267px;
+  height              : 45px;
+  width               : 211px;
+  position            : absolute;
+  margin              : 0;
+  left                : 498px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .activateddropdown2 .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 41px;
+  width               : 207px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .activateddropdown2 .joinasgrey {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 211px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .activateddropdown2 .joinasgrey .rectangle5 {
+  background-color    : rgba(176, 179, 181, 1.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 211px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(143, 169, 213, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .activateddropdown2 .joinasgrey .typein {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : auto;
+  width               : 166px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.skillchoiceregistration .activateddropdown2 .joinasgrey .shapecopy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 18px;
+  height              : 10px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 179px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .skilldropdown {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 898px;
+  height              : 266px;
+  width               : 210px;
+  position            : absolute;
+  margin              : 0;
+  left                : 736px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .skilldropdown .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 266px;
+  width               : 206px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .skilldropdown .skilldropdown1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 266px;
+  width               : 210px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .skilldropdown .skilldropdown1 .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 266px;
+  width               : 210px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .skilldropdown .skilldropdown1 .group .rectangle5copy2 {
+  background-color    : rgba(239, 242, 245, 1.0);
+  top                 : 36px;
+  height              : 232px;
+  width               : 206px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  border-radius       : 6px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(141, 141, 142, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .skilldropdown .skilldropdown1 .group .rectangle5 {
+  background-color    : rgba(239, 242, 245, 1.0);
+  top                 : 0px;
+  height              : 46px;
+  width               : 210px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(80, 120, 191, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .skilldropdown .skilldropdown1 .group .shapecopy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 19px;
+  height              : 10px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 165px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .skilldropdown .skilldropdown1 .a3danimationvfxeng {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 85px;
+  height              : auto;
+  width               : 167px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(19, 21, 23, 1.0);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.skillchoiceregistration .skilldropdown .skilldropdown1 .visual {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 55px;
+  height              : auto;
+  width               : 88px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(19, 21, 23, 1.0);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.skillchoiceregistration .skilldropdown .skilldropdown1 .a2ndskill {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : auto;
+  width               : 107px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(80, 120, 191, 1.0);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.skillchoiceregistration .warnings {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1239px;
+  height              : 15px;
+  width               : 201px;
+  position            : absolute;
+  margin              : 0;
+  left                : 505px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .warnings .inputanumberbetwe {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(237, 22, 55, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.skillchoiceregistration .a1brick {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1028px;
+  height              : 198px;
+  width               : 121px;
+  position            : absolute;
+  margin              : 0;
+  left                : 539px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .a1brick .rectangle3copy {
+  background-color    : rgba(239, 242, 245, 1.0);
+  top                 : 81px;
+  height              : 117px;
+  width               : 121px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 6px;
+  border-style        : solid;
+  border-width        : 3px;
+  border-color        : rgba(42, 44, 47, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .a1brick .rectangle3 {
+  background-color    : rgba(239, 242, 245, 1.0);
+  top                 : 0px;
+  height              : 100px;
+  width               : 121px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 6px;
+  border-style        : solid;
+  border-width        : 3px;
+  border-color        : rgba(42, 44, 47, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .a1brick .path3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 97px;
+  height              : 4px;
+  width               : 118px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .a1brick .engineer {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 64px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(31, 33, 35, 1.0);
+  text-align          : right;
+  line-height         : 20.0px;
+}
+.skillchoiceregistration .a1brick .sfx {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 43px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 39px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(31, 33, 35, 1.0);
+  text-align          : right;
+  line-height         : 20.0px;
+}
+.skillchoiceregistration .a1brick .uf292 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : auto;
+  width               : 23px;
+  position            : absolute;
+  margin              : 0;
+  left                : 52px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "FontAwesome", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(237, 22, 55, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.skillchoiceregistration .a1brick .avgrateu20acinputp {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 111px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(31, 33, 35, 1.0);
+  text-align          : center;
+  line-height         : 16.0px;
+}
+.skillchoiceregistration .a1brick .infoicon {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 168px;
+  height              : 17px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 54px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .a1brick .infoicon .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 17px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .a1brick .infoicon .infoicon1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .a1brick .infoicon .infoicon1 .info {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .a1brick .infoicon .infoicon1 .path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : 8px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .a1brick .infoicon .infoicon1 .path1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 2px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .inputtherateyouu2019d {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 956px;
+  height              : auto;
+  width               : 197px;
+  position            : absolute;
+  margin              : 0;
+  left                : 496px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(19, 21, 23, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.skillchoiceregistration .fielddropdownmediumselected {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 897px;
+  height              : 46px;
+  width               : 210px;
+  position            : absolute;
+  margin              : 0;
+  left                : 496px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .fielddropdownmediumselected .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 42px;
+  width               : 206px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .fielddropdownmediumselected .selectco {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 46px;
+  width               : 210px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .fielddropdownmediumselected .selectco .rectangle5copy2 {
+  background-color    : rgba(80, 120, 191, 1.0);
+  top                 : 0px;
+  height              : 46px;
+  width               : 210px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(176, 179, 181, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .fielddropdownmediumselected .selectco .shapecopy4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 18px;
+  height              : 10px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 174px;
+  -ms-transform       : rotate(-90deg); /* IE 9 */
+  -webkit-transform   : rotate(-90deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-90deg);
+}
+.skillchoiceregistration .fielddropdownmediumselected .selectco .company {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : auto;
+  width               : 160px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.skillchoiceregistration .titleinformation {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 771px;
+  height              : 68px;
+  width               : 391px;
+  position            : absolute;
+  margin              : 0;
+  left                : 525px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .titleinformation .selectupto8ofyo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 36px;
+  height              : auto;
+  width               : 391px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(19, 21, 23, 1.0);
+  text-align          : center;
+  line-height         : 16.0px;
+}
+.skillchoiceregistration .titleinformation .youonlysettlefor {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 55px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(41, 44, 47, 1.0);
+  text-align          : justify;
+  line-height         : 21.0px;
+}
+.skillchoiceregistration .gobackarrow {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 455px;
+  height              : 21px;
+  width               : 39px;
+  position            : absolute;
+  margin              : 0;
+  left                : 269px;
+  -ms-transform       : rotate(90deg); /* IE 9 */
+  -webkit-transform   : rotate(90deg); /* Chrome, Safari, Opera */
+  transform           : rotate(90deg);
+}
+.skillchoiceregistration .elementlevelbrickinactive {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 409px;
+  height              : 344px;
+  width               : 209px;
+  position            : absolute;
+  margin              : 0;
+  left                : 736px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .elementlevelbrickinactive .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 338px;
+  width               : 203px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .elementlevelbrickinactive .elementlevelbrickactive {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 344px;
+  width               : 209px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .elementlevelbrickinactive .elementlevelbrickactive .palettesred {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 344px;
+  width               : 209px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .elementlevelbrickinactive .elementlevelbrickactive .divider {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 131px;
+  height              : 5px;
+  width               : 207px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .elementlevelbrickinactive .elementlevelbrickactive .divider .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 5px;
+  width               : 207px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .elementlevelbrickinactive .elementlevelbrickactive .a4thline {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 297px;
+  height              : 30px;
+  width               : 164px;
+  position            : absolute;
+  margin              : 0;
+  left                : 23px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .elementlevelbrickinactive .elementlevelbrickactive .a4thline .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 164px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .elementlevelbrickinactive .elementlevelbrickactive .a4thline .fontssourcesemiboldwh12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 166px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "SourceSansPro-SemiBold", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(141, 141, 142, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.75px;
+  line-height         : 15.0px;
+}
+.skillchoiceregistration .elementlevelbrickinactive .elementlevelbrickactive .a2ndline {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 212px;
+  height              : 30px;
+  width               : 164px;
+  position            : absolute;
+  margin              : 0;
+  left                : 23px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .elementlevelbrickinactive .elementlevelbrickactive .a2ndline .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 164px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .elementlevelbrickinactive .elementlevelbrickactive .a2ndline .fontssourcesemiboldwh12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 166px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "SourceSansPro-SemiBold", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(141, 141, 142, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.75px;
+  line-height         : 15.0px;
+}
+.skillchoiceregistration .elementlevelbrickinactive .elementlevelbrickactive .a1stline {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 176px;
+  height              : 34px;
+  width               : 162px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .elementlevelbrickinactive .elementlevelbrickactive .a1stline .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 34px;
+  width               : 162px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .elementlevelbrickinactive .elementlevelbrickactive .a1stline .fontssourcesemiboldwh12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : auto;
+  width               : 164px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "SourceSansPro-SemiBold", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(141, 141, 142, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.75px;
+  line-height         : 15.0px;
+}
+.skillchoiceregistration .elementlevelbrickinactive .elementlevelbrickactive .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 140px;
+  height              : 23px;
+  width               : 164px;
+  position            : absolute;
+  margin              : 0;
+  left                : 23px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .elementlevelbrickinactive .elementlevelbrickactive .title .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 23px;
+  width               : 164px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .elementlevelbrickinactive .elementlevelbrickactive .title .fontssourceboldbl18 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 166px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Source Sans Pro", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(141, 141, 142, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.6px;
+  line-height         : 23.0px;
+}
+.skillchoiceregistration .elementlevelbrickinactive .elementlevelbrickactive .iconsskilldartitaninactive {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 101px;
+  width               : 101px;
+  position            : absolute;
+  margin              : 0;
+  left                : 54px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .elementlevelbrickinactive .elementlevelbrickactive .iconsskilldartitaninactive .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 101px;
+  width               : 101px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .elementlevelbrickinactive .elementlevelbrickactive .iconsskilldartitaninactive .basic {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 39px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(141, 141, 142, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.6px;
+  line-height         : 21.0px;
+}
+.skillchoiceregistration .elementlevelbrickinactive .elementlevelbrickactive .iconsskilldartitaninactive .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 101px;
+  width               : 101px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .elementlevelbrickinactive1 {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 211px;
+  margin-right        : 120px;
+  height              : 100%;
+  pointer-events      : auto;
+  margin-left         : -120px;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .elementlevelbrickinactive1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 405px;
+  align-items         : center;
+  height              : 349px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.skillchoiceregistration .elementlevelbrickinactive1 .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7px;
+  height              : 338px;
+  width               : 203px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .elementlevelbrickinactive1 .elementlevelbrickactive {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 100%;
+  height              : 349px;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .elementlevelbrickinactive1 .elementlevelbrickactive-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0;
+  height              : 100%;
+  width               : 211px;
+  justify-content     : center;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0px;
+}
+.skillchoiceregistration .elementlevelbrickinactive1 .elementlevelbrickactive .palettesred {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : 340px;
+  width               : 203px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .elementlevelbrickinactive1 .elementlevelbrickactive .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 349px;
+  width               : 211px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 6px;
+  border-style        : solid;
+  border-width        : 6px;
+  border-color        : rgba(80, 120, 191, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .elementlevelbrickinactive1 .elementlevelbrickactive .divider {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 136px;
+  height              : 6px;
+  width               : 203px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .elementlevelbrickinactive1 .elementlevelbrickactive .divider .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 6px;
+  width               : 203px;
+  position            : relative;
+  margin              : 0;
+  left                : 0%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .elementlevelbrickinactive1 .elementlevelbrickactive .a4thline {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 298px;
+  height              : 34px;
+  width               : 160px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .elementlevelbrickinactive1 .elementlevelbrickactive .a4thline .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 34px;
+  width               : 160px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .elementlevelbrickinactive1 .elementlevelbrickactive .a4thline .fontssourcesemiboldwh12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : auto;
+  width               : 162px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "SourceSansPro-SemiBold", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(238, 243, 245, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.75px;
+  line-height         : 15.0px;
+}
+.skillchoiceregistration .elementlevelbrickinactive1 .elementlevelbrickactive .a2ndline {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 213px;
+  height              : 34px;
+  width               : 160px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .elementlevelbrickinactive1 .elementlevelbrickactive .a2ndline .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 34px;
+  width               : 160px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .elementlevelbrickinactive1 .elementlevelbrickactive .a2ndline .fontssourcesemiboldwh12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : auto;
+  width               : 162px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "SourceSansPro-SemiBold", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(238, 243, 245, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.75px;
+  line-height         : 15.0px;
+}
+.skillchoiceregistration .elementlevelbrickinactive1 .elementlevelbrickactive .a1stline {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 179px;
+  height              : 34px;
+  width               : 159px;
+  position            : absolute;
+  margin              : 0;
+  left                : 25px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .elementlevelbrickinactive1 .elementlevelbrickactive .a1stline .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 34px;
+  width               : 159px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .elementlevelbrickinactive1 .elementlevelbrickactive .a1stline .fontssourcesemiboldwh12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : auto;
+  width               : 161px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "SourceSansPro-SemiBold", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(238, 243, 245, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.75px;
+  line-height         : 15.0px;
+}
+.skillchoiceregistration .elementlevelbrickinactive1 .elementlevelbrickactive .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 144px;
+  height              : 23px;
+  width               : 161px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .elementlevelbrickinactive1 .elementlevelbrickactive .title .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 23px;
+  width               : 161px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .elementlevelbrickinactive1 .elementlevelbrickactive .title .premium {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 163px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "SourceSansPro-SemiBold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(238, 243, 245, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.6px;
+  line-height         : 23.0px;
+}
+.skillchoiceregistration .elementlevelbrickinactive1 .elementlevelbrickactive .skau0308rmklipp20180115133046 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 19px;
+  height              : 96px;
+  width               : 97px;
+  position            : absolute;
+  margin              : 0;
+  left                : 56px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .chooseyouraccount {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 352px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 588px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(41, 44, 47, 1.0);
+  text-align          : justify;
+  line-height         : 21.0px;
+}
+.skillchoiceregistration .newprofileline {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 308px;
+  height              : 20px;
+  width               : 571px;
+  position            : absolute;
+  margin              : 0;
+  left                : 421px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .newprofileline .moduleproglinecomplete {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 2px;
+  width               : 440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 131px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .newprofileline .moduleproglinecomplete .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 2px;
+  width               : 440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .newprofileline .moduleproglinecomplete .completionline {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 2px;
+  width               : 397px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .newprofileline .moduleproglinecomplete .completionline .moduleproglinelvl4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 2px;
+  width               : 368px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .newprofileline .moduleproglinecomplete .completionline .moduleproglinelvl4 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 2px;
+  width               : 367px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .newprofileline .moduleproglinecomplete .completionline .moduleproglinelvl4 .lvl4completionline1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 2px;
+  width               : 367px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .newprofileline .moduleproglinecomplete .completionline .lvl4completionline {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 2px;
+  width               : 397px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .newprofileline .moduleproglinecomplete .completionline .lvl4completionline .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 2px;
+  width               : 396px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .newprofileline .moduleproglinecomplete .completionline .lvl4completionline .lvl5completionline {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 2px;
+  width               : 396px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .newprofileline .moduleproglinecomplete .completionline .lvl3completionline {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 2px;
+  width               : 367px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .newprofileline .moduleproglinecomplete .completionline .lvl3completionline .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 2px;
+  width               : 366px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .newprofileline .moduleproglinecomplete .completionline .lvl3completionline .lvl3completionline1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 2px;
+  width               : 366px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .newprofileline .moduleproglinecomplete .completionline .lvl2completionline {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 2px;
+  width               : 291px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .newprofileline .moduleproglinecomplete .completionline .lvl2completionline .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 2px;
+  width               : 290px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .newprofileline .moduleproglinecomplete .completionline .lvl2completionline .lvl2completionline1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 2px;
+  width               : 290px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .newprofileline .moduleproglinecomplete .completionline .lvl1completionline {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 2px;
+  width               : 126px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .newprofileline .moduleproglinecomplete .completionline .lvl1completionline .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 2px;
+  width               : 126px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .newprofileline .moduleproglinecomplete .completionline .lvl1completionline .lvl1completionline1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 2px;
+  width               : 126px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .newprofileline .newprofile {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 100px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "SourceSansPro-SemiBold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(42, 44, 47, 1.0);
+  text-align          : left;
+  line-height         : 20.0px;
+}
+.skillchoiceregistration .logoskilldarradardark {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 126px;
+  height              : 147px;
+  width               : 137px;
+  position            : absolute;
+  margin              : 0;
+  left                : 652px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .logoskilldarradardark .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 147px;
+  width               : 137px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.skillchoiceregistration .logoskilldarradardark .lighthorizontalv32 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7px;
+  height              : 129px;
+  width               : 115px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}

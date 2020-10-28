@@ -1,0 +1,1364 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:900,400,700,300|Roboto:400,700,500,300,900');
+
+@font-face {
+  font-family: "FontAwesome";
+  src: url('../fonts/FontAwesome.otf') format("opentype");
+}
+@font-face {
+  font-family: "SourceSansPro-SemiBold";
+  src: url('../fonts/SourceSansPro-SemiBold.ttf') format("truetype");
+}
+
+.companypvtregistration {
+  width               : 100%;
+  min-width           : 1440px;
+  height              : 100vh;
+  min-height          : 930px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background-color    : rgba(42, 44, 47, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.companypvtregistration .elementskeletonbanners {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -6px;
+  height              : 937px;
+  width               : 1444px;
+  position            : absolute;
+  margin              : 0;
+  left                : -2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .elementskeletonbanners .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 934px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .elementskeletonbanners .skeletonelements {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 937px;
+  width               : 1444px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .elementskeletonbanners .skeletonelements .rectangle2 {
+  background-color    : rgba(20, 21, 23, 1.0);
+  top                 : 887px;
+  height              : 50px;
+  width               : 1444px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(51, 52, 55, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .elementskeletonbanners .skeletonelements .rectangle21 {
+  background-color    : rgba(20, 21, 23, 1.0);
+  top                 : 0px;
+  height              : 49px;
+  width               : 1444px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(51, 52, 55, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .elementskeletonbanners .skeletonelements .getstarted {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 905px;
+  height              : auto;
+  width               : 89px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1331px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(249, 142, 0, 1.0);
+  text-align          : right;
+  line-height         : 20.0px;
+}
+.companypvtregistration .elementskeletonbanners .skeletonelements .aboutskilldar {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 905px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1211px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(0, 152, 62, 1.0);
+  text-align          : right;
+  line-height         : 20.0px;
+}
+.companypvtregistration .elementskeletonbanners .skeletonelements .privacy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 903px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 91px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(145, 146, 149, 1.0);
+  text-align          : left;
+  line-height         : 20.0px;
+}
+.companypvtregistration .elementskeletonbanners .skeletonelements .terms {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 903px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(145, 146, 149, 1.0);
+  text-align          : left;
+  line-height         : 20.0px;
+}
+.companypvtregistration .elementskeletonbanners .skeletonelements .iconsskilldarlogin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 20px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1398px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .elementskeletonbanners .skeletonelements .iconsskilldarlogin .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .elementskeletonbanners .skeletonelements .iconsskilldarlogin .signinfontawesome {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+}
+.companypvtregistration .elementskeletonbanners .skeletonelements .login {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1349px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(80, 120, 191, 1.0);
+  text-align          : right;
+  line-height         : 20.0px;
+}
+.companypvtregistration .elementskeletonbanners .skeletonelements .iconsfacebook {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 20px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1309px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .elementskeletonbanners .skeletonelements .iconsfacebook .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .elementskeletonbanners .skeletonelements .iconsfacebook .twitter16 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .elementskeletonbanners .skeletonelements .iconsfacebook .twitter16 .rectangle {
+  background-color    : rgba(141, 141, 142, 1.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .elementskeletonbanners .skeletonelements .iconsfacebook .twitter16 .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 11px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .elementskeletonbanners .skeletonelements .iconsinstagram {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 20px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1280px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .elementskeletonbanners .skeletonelements .iconsinstagram .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .elementskeletonbanners .skeletonelements .iconsinstagram .instagramfontawesome {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .elementskeletonbanners .skeletonelements .browseskills {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 20px;
+  width               : 102px;
+  position            : absolute;
+  margin              : 0;
+  left                : 53px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .elementskeletonbanners .skeletonelements .iconsskilldarhashtag {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .elementskeletonbanners .skeletonelements .iconsskilldarhashtag .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .elementskeletonbanners .skeletonelements .iconsskilldarhashtag .uf292 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "FontAwesome", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(237, 22, 55, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.companypvtregistration .backgroundupperlvl1440x845 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 42px;
+  height              : 841px;
+  width               : 1442px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .backgroundupperlvl1440x845 .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 839px;
+  width               : 1442px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .backgroundupperlvl1440x845 .backgroundupperlvl1440x8451 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 841px;
+  width               : 1442px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .backgroundupperlvl1440x845 .backgroundupperlvl1440x8451 .linecopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 838px;
+  height              : 3px;
+  width               : 1442px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .backgroundupperlvl1440x845 .backgroundupperlvl1440x8451 .rectangle3 {
+  background-color    : rgba(176, 179, 181, 0.84);
+  top                 : 3px;
+  height              : 835px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .backgroundupperlvl1440x845 .backgroundupperlvl1440x8451 .rectangle3copy {
+  background-color    : rgba(239, 243, 245, 0.85);
+  top                 : 13px;
+  height              : 814px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .backgroundupperlvl1440x845 .backgroundupperlvl1440x8451 .rectangle3copy2 {
+  background-color    : rgba(239, 242, 245, 1.0);
+  top                 : 43px;
+  height              : 754px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .backgroundupperlvl1440x845 .backgroundupperlvl1440x8451 .line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 3px;
+  width               : 1442px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .fieldbutton {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 444px;
+  height              : 263px;
+  width               : 693px;
+  position            : absolute;
+  margin              : 0;
+  left                : 373px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .fieldbutton .container450x100white {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 165px;
+  height              : 100px;
+  width               : 450px;
+  position            : absolute;
+  margin              : 0;
+  left                : 122px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .fieldbutton .container450x100white .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100px;
+  width               : 450px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .fieldbutton .container450x100white .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100px;
+  width               : 450px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(239, 242, 245, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .fieldbutton .loginbutton {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 175px;
+  height              : 59px;
+  width               : 173px;
+  position            : absolute;
+  margin              : 0;
+  left                : 262px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .fieldbutton .loginbutton .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 170px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .fieldbutton .loginbutton .loginbutton1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 59px;
+  width               : 173px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .fieldbutton .loginbutton .loginbutton1 .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 59px;
+  width               : 173px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .fieldbutton .loginbutton .loginbutton1 .rectanglecopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 170px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .fieldbutton .loginbutton .loginbutton1 .play {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 20px;
+  height              : 17px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 122px;
+  -ms-transform       : rotate(1deg); /* IE 9 */
+  -webkit-transform   : rotate(1deg); /* Chrome, Safari, Opera */
+  transform           : rotate(1deg);
+  opacity             : 0.9;
+}
+.companypvtregistration .fieldbutton .loginbutton .loginbutton1 .txt {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 18px;
+  height              : auto;
+  width               : 88px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "Source Sans Pro", Helvetica, Arial, serif;
+  font-weight         : 900;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : right;
+  letter-spacing      : 1.53px;
+  line-height         : 23.0px;
+}
+.companypvtregistration .fieldbutton .typeinformfield {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 211px;
+  position            : absolute;
+  margin              : 0;
+  left                : 482px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .fieldbutton .typeinformfield .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 42px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .fieldbutton .typeinformfield .fieldtypetxtactive {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 211px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .fieldbutton .typeinformfield .fieldtypetxtactive .rectangle5copy {
+  background-color    : rgba(176, 179, 181, 1.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 211px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(143, 169, 213, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .fieldbutton .typeinformfield .fieldtypetxtactive .typenameu2026 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : auto;
+  width               : 196px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.companypvtregistration .fieldbutton .dropdownfield {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 157px;
+  width               : 212px;
+  position            : absolute;
+  margin              : 0;
+  left                : 241px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .fieldbutton .dropdownfield .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 157px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .fieldbutton .dropdownfield .roleatcompany {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 157px;
+  width               : 212px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .fieldbutton .dropdownfield .roleatcompany .rectangle5copy2 {
+  background-color    : rgba(239, 242, 245, 1.0);
+  top                 : 37px;
+  height              : 122px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  border-radius       : 6px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(141, 141, 142, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .fieldbutton .dropdownfield .roleatcompany .rectangle5 {
+  background-color    : rgba(239, 242, 245, 1.0);
+  top                 : 0px;
+  height              : 46px;
+  width               : 212px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(80, 120, 191, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .fieldbutton .dropdownfield .roleatcompany .roleatcompany1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : auto;
+  width               : 106px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(80, 120, 191, 1.0);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.companypvtregistration .fieldbutton .dropdownfield .roleatcompany .shapecopy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 19px;
+  height              : 10px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 180px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .fieldbutton .dropdownfield .roleatcompany .shapecopy5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 85px;
+  height              : 5px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 184px;
+  -ms-transform       : rotate(-90deg); /* IE 9 */
+  -webkit-transform   : rotate(-90deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-90deg);
+}
+.companypvtregistration .fieldbutton .dropdownfield .roleatcompany .partner {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 89px;
+  height              : auto;
+  width               : 89px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(19, 21, 23, 1.0);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.companypvtregistration .fieldbutton .dropdownfield .roleatcompany .representative {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 120px;
+  height              : auto;
+  width               : 106px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(19, 21, 23, 1.0);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.companypvtregistration .fieldbutton .dropdownfield .roleatcompany .owner {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 58px;
+  height              : auto;
+  width               : 60px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(19, 21, 23, 1.0);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.companypvtregistration .fieldbutton .fielddropdownmediumselected {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 46px;
+  width               : 212px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .fieldbutton .fielddropdownmediumselected .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 42px;
+  width               : 208px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .fieldbutton .fielddropdownmediumselected .selectco {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 46px;
+  width               : 212px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .fieldbutton .fielddropdownmediumselected .selectco .rectangle5copy2 {
+  background-color    : rgba(80, 120, 191, 1.0);
+  top                 : 0px;
+  height              : 46px;
+  width               : 212px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(176, 179, 181, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .fieldbutton .fielddropdownmediumselected .selectco .shapecopy4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 18px;
+  height              : 10px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 176px;
+  -ms-transform       : rotate(-90deg); /* IE 9 */
+  -webkit-transform   : rotate(-90deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-90deg);
+}
+.companypvtregistration .fieldbutton .fielddropdownmediumselected .selectco .company {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : auto;
+  width               : 162px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.companypvtregistration .gobackarrow {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 447px;
+  height              : 21px;
+  width               : 39px;
+  position            : absolute;
+  margin              : 0;
+  left                : 267px;
+  -ms-transform       : rotate(90deg); /* IE 9 */
+  -webkit-transform   : rotate(90deg); /* Chrome, Safari, Opera */
+  transform           : rotate(90deg);
+}
+.companypvtregistration .toptitleinformation {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 328px;
+  height              : 100px;
+  width               : 527px;
+  position            : absolute;
+  margin              : 0;
+  left                : 457px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .toptitleinformation .container450x100white {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100px;
+  width               : 527px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .toptitleinformation .container450x100white .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100px;
+  width               : 527px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .toptitleinformation .container450x100white .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100px;
+  width               : 527px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(239, 242, 245, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .toptitleinformation .statewhetheryoupr {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 45px;
+  height              : auto;
+  width               : 334px;
+  position            : absolute;
+  margin              : 0;
+  left                : 96px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(19, 21, 23, 1.0);
+  text-align          : center;
+  line-height         : 16.0px;
+}
+.companypvtregistration .toptitleinformation .joiningasaperson {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : auto;
+  width               : 316px;
+  position            : absolute;
+  margin              : 0;
+  left                : 105px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(41, 44, 47, 1.0);
+  text-align          : justify;
+  line-height         : 21.0px;
+}
+.companypvtregistration .newprofileline {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 308px;
+  height              : 20px;
+  width               : 571px;
+  position            : absolute;
+  margin              : 0;
+  left                : 421px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .newprofileline .moduleproglinefull {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 3px;
+  width               : 441px;
+  position            : absolute;
+  margin              : 0;
+  left                : 130px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .newprofileline .moduleproglinefull .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 3px;
+  width               : 441px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .newprofileline .moduleproglinefull .completionline {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 3px;
+  width               : 368px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .newprofileline .moduleproglinefull .completionline .moduleproglinelvl4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 3px;
+  width               : 368px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .newprofileline .moduleproglinefull .completionline .moduleproglinelvl4 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 3px;
+  width               : 368px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .newprofileline .moduleproglinefull .completionline .moduleproglinelvl4 .lvl4completionline {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 3px;
+  width               : 368px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .newprofileline .moduleproglinefull .completionline .lvl3completionline {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 3px;
+  width               : 367px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .newprofileline .moduleproglinefull .completionline .lvl3completionline .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 3px;
+  width               : 367px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .newprofileline .moduleproglinefull .completionline .lvl3completionline .lvl3completionline1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 3px;
+  width               : 367px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .newprofileline .moduleproglinefull .completionline .lvl2completionline {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 3px;
+  width               : 291px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .newprofileline .moduleproglinefull .completionline .lvl2completionline .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 3px;
+  width               : 291px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .newprofileline .moduleproglinefull .completionline .lvl2completionline .lvl2completionline1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 3px;
+  width               : 291px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .newprofileline .moduleproglinefull .completionline .lvl1completionline {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 3px;
+  width               : 126px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .newprofileline .moduleproglinefull .completionline .lvl1completionline .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 3px;
+  width               : 126px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .newprofileline .moduleproglinefull .completionline .lvl1completionline .lvl1completionline1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 3px;
+  width               : 126px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .newprofileline .newprofile {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 100px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "SourceSansPro-SemiBold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(42, 44, 46, 1.0);
+  text-align          : left;
+  line-height         : 20.0px;
+}
+.companypvtregistration .logoskilldarradardark {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 125px;
+  height              : 147px;
+  width               : 137px;
+  position            : absolute;
+  margin              : 0;
+  left                : 652px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .logoskilldarradardark .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 147px;
+  width               : 137px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.companypvtregistration .logoskilldarradardark .lighthorizontalv32 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7px;
+  height              : 129px;
+  width               : 115px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}

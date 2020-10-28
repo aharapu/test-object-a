@@ -1,0 +1,3280 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:900,400,700,300|Roboto:400,700,500,300,900');
+
+@font-face {
+  font-family: "FontAwesome";
+  src: url('../fonts/FontAwesome.otf') format("opentype");
+}
+@font-face {
+  font-family: "SourceSansPro-SemiBold";
+  src: url('../fonts/SourceSansPro-SemiBold.ttf') format("truetype");
+}
+
+.registrationeditmode {
+  width               : 100%;
+  min-width           : 1440px;
+  height              : 100vh;
+  min-height          : 1440px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background-color    : rgba(42, 44, 47, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.registrationeditmode .elementskeletonbasesearchfield {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -2px;
+  height              : 1443px;
+  width               : 1444px;
+  position            : absolute;
+  margin              : 0;
+  left                : -2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .elementskeletonbasesearchfield .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 1440px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .elementskeletonbasesearchfield .skeletonelements {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1443px;
+  width               : 1444px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .elementskeletonbasesearchfield .skeletonelements .rectangle2 {
+  background-color    : rgba(20, 21, 23, 1.0);
+  top                 : 1393px;
+  height              : 50px;
+  width               : 1444px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(51, 52, 55, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .elementskeletonbasesearchfield .skeletonelements .rectangle21 {
+  background-color    : rgba(20, 21, 23, 1.0);
+  top                 : 0px;
+  height              : 49px;
+  width               : 1444px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(51, 52, 55, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .elementskeletonbasesearchfield .skeletonelements .getstarted {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1410px;
+  height              : auto;
+  width               : 89px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1331px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(249, 142, 0, 1.0);
+  text-align          : right;
+  line-height         : 20.0px;
+}
+.registrationeditmode .elementskeletonbasesearchfield .skeletonelements .aboutskilldar {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1410px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1211px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(0, 152, 62, 1.0);
+  text-align          : right;
+  line-height         : 20.0px;
+}
+.registrationeditmode .elementskeletonbasesearchfield .skeletonelements .privacy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1408px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 91px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(145, 146, 149, 1.0);
+  text-align          : left;
+  line-height         : 20.0px;
+}
+.registrationeditmode .elementskeletonbasesearchfield .skeletonelements .terms {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1408px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(145, 146, 149, 1.0);
+  text-align          : left;
+  line-height         : 20.0px;
+}
+.registrationeditmode .elementskeletonbasesearchfield .skeletonelements .elementssearchfieldlogo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 69px;
+  height              : 49px;
+  width               : 723px;
+  position            : absolute;
+  margin              : 0;
+  left                : 354px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .elementskeletonbasesearchfield .skeletonelements .elementssearchfieldlogo .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 49px;
+  width               : 720px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .elementskeletonbasesearchfield .skeletonelements .elementssearchfieldlogo .searchfield {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 49px;
+  width               : 723px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .elementskeletonbasesearchfield .skeletonelements .elementssearchfieldlogo .searchfield .searchcontainer {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 48px;
+  width               : 488px;
+  position            : absolute;
+  margin              : 0;
+  left                : 235px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .elementskeletonbasesearchfield .skeletonelements .elementssearchfieldlogo .searchfield .iconsearch {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 690px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.5;
+}
+.registrationeditmode .elementskeletonbasesearchfield .skeletonelements .elementssearchfieldlogo .searchfield .iconsearch .searchmaterial {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 15px;
+  width               : 15px;
+  position            : relative;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .elementskeletonbasesearchfield .skeletonelements .elementssearchfieldlogo .searchfield .search {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : 36px;
+  width               : 52px;
+  position            : absolute;
+  margin              : 0;
+  left                : 251px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .elementskeletonbasesearchfield .skeletonelements .elementssearchfieldlogo .searchfield .search .search1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.5;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 19.0px;
+}
+.registrationeditmode .elementskeletonbasesearchfield .skeletonelements .elementssearchfieldlogo .searchfield .logoskilldarreclight {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 27px;
+  width               : 215px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .elementskeletonbasesearchfield .skeletonelements .elementssearchfieldlogo .searchfield .logoskilldarreclight .background2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 27px;
+  width               : 215px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .elementskeletonbasesearchfield .skeletonelements .elementssearchfieldlogo .searchfield .logoskilldarreclight .darkhorizontalv3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 27px;
+  width               : 214px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .elementskeletonbasesearchfield .skeletonelements .iconsskilldarlogin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 20px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1398px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .elementskeletonbasesearchfield .skeletonelements .iconsskilldarlogin .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .elementskeletonbasesearchfield .skeletonelements .iconsskilldarlogin .signinfontawesome {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+}
+.registrationeditmode .elementskeletonbasesearchfield .skeletonelements .login {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1349px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(80, 120, 191, 1.0);
+  text-align          : right;
+  line-height         : 20.0px;
+}
+.registrationeditmode .elementskeletonbasesearchfield .skeletonelements .iconsfacebook {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 20px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1309px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .elementskeletonbasesearchfield .skeletonelements .iconsfacebook .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .elementskeletonbasesearchfield .skeletonelements .iconsfacebook .twitter16 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .elementskeletonbasesearchfield .skeletonelements .iconsfacebook .twitter16 .rectangle {
+  background-color    : rgba(141, 141, 142, 1.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .elementskeletonbasesearchfield .skeletonelements .iconsfacebook .twitter16 .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 11px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .elementskeletonbasesearchfield .skeletonelements .iconsinstagram {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 20px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1280px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .elementskeletonbasesearchfield .skeletonelements .iconsinstagram .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .elementskeletonbasesearchfield .skeletonelements .iconsinstagram .instagramfontawesome {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .elementskeletonbasesearchfield .skeletonelements .browseskills {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 20px;
+  width               : 102px;
+  position            : absolute;
+  margin              : 0;
+  left                : 53px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .elementskeletonbasesearchfield .skeletonelements .iconsskilldarhashtag {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .elementskeletonbasesearchfield .skeletonelements .iconsskilldarhashtag .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .elementskeletonbasesearchfield .skeletonelements .iconsskilldarhashtag .uf292 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "FontAwesome", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(237, 22, 55, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.registrationeditmode .profileheader {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 199px;
+  height              : 253px;
+  width               : 728px;
+  position            : absolute;
+  margin              : 0;
+  left                : 355px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profileheader .rectanglesmall {
+  background-color    : rgba(47, 50, 54, 1.0);
+  top                 : 98px;
+  height              : 158px;
+  width               : 722px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  border-radius       : 6px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profileheader .rectanglesmallcopy {
+  background-color    : rgba(47, 50, 54, 1.0);
+  top                 : 0px;
+  height              : 123px;
+  width               : 728px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  border-style        : solid;
+  border-width        : 3px;
+  border-color        : rgba(141, 141, 142, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profileheader .contactbutton {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 143px;
+  height              : 89px;
+  width               : 175px;
+  position            : absolute;
+  margin              : 0;
+  left                : 497px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profileheader .contactbutton .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 88px;
+  width               : 175px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profileheader .contactbutton .contactbutton1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 89px;
+  width               : 175px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profileheader .contactbutton .contactbutton1 .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 89px;
+  width               : 175px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profileheader .contactbutton .contactbutton1 .rectanglecopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 88px;
+  width               : 175px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(180deg); /* IE 9 */
+  -webkit-transform   : rotate(180deg); /* Chrome, Safari, Opera */
+  transform           : rotate(180deg);
+}
+.registrationeditmode .profileheader .contactbutton .contactbutton1 .contact {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 43px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 48px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Source Sans Pro", Helvetica, Arial, serif;
+  font-weight         : 900;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(42, 44, 47, 1.0);
+  text-align          : right;
+  line-height         : 23.0px;
+}
+.registrationeditmode .profileheader .contactbutton .contactbutton1 .bitmap {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 28px;
+  height              : 11px;
+  width               : 39px;
+  position            : absolute;
+  margin              : 0;
+  left                : 68px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profileheader .profilepicture1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 20px;
+  height              : 122px;
+  width               : 134px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  border-radius       : 4px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profileheader .profilepicture1 .rectangle4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 119px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  -ms-transform       : rotate(180deg); /* IE 9 */
+  -webkit-transform   : rotate(180deg); /* Chrome, Safari, Opera */
+  transform           : rotate(180deg);
+}
+.registrationeditmode .profileheader .profilepicture1 .rectangle4copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 116px;
+  width               : 126px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(180deg); /* IE 9 */
+  -webkit-transform   : rotate(180deg); /* Chrome, Safari, Opera */
+  transform           : rotate(180deg);
+}
+.registrationeditmode .profileheader .profilepicture1 .neunregissou0308rjoykors {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -12px;
+  height              : 150px;
+  width               : 267px;
+  position            : absolute;
+  margin              : 0;
+  left                : -8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profileheader .loremipsumdolorsi {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 56px;
+  height              : auto;
+  width               : 425px;
+  position            : absolute;
+  margin              : 0;
+  left                : 176px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.registrationeditmode .profileheader .location {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 30px;
+  height              : 17px;
+  width               : 116px;
+  position            : absolute;
+  margin              : 0;
+  left                : 587px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profileheader .location .berlingermany {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 25px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : left;
+  line-height         : 15.0px;
+}
+.registrationeditmode .profileheader .location .brandenburggate1600 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 17px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profileheader .jameshowlett {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 22px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 176px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Source Sans Pro", Helvetica, Arial, serif;
+  font-weight         : 900;
+  font-style          : normal;
+  font-size           : 22.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : left;
+  letter-spacing      : 1.55px;
+  line-height         : 28.0px;
+}
+.registrationeditmode .profilebody {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 485px;
+  height              : 885px;
+  width               : 722px;
+  position            : absolute;
+  margin              : 0;
+  left                : 361px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profilebody .rectanglebigcopy {
+  background-color    : rgba(47, 50, 54, 1.0);
+  top                 : 0px;
+  height              : 885px;
+  width               : 722px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 6px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profilebody .profilebodytitle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 28px;
+  height              : 38px;
+  width               : 602px;
+  position            : absolute;
+  margin              : 0;
+  left                : 59px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profilebody .profilebodytitle .line2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 33px;
+  height              : 3px;
+  width               : 596px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profilebody .profilebodytitle .line3copy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 30px;
+  height              : 8px;
+  width               : 143px;
+  position            : absolute;
+  margin              : 0;
+  left                : 459px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profilebody .profilebodytitle .line3copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 30px;
+  height              : 8px;
+  width               : 143px;
+  position            : absolute;
+  margin              : 0;
+  left                : 231px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profilebody .profilebodytitle .line3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 30px;
+  height              : 8px;
+  width               : 143px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+}
+.registrationeditmode .profilebody .profilebodytitle .details {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 499px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(176, 179, 181, 1.0);
+  text-align          : right;
+  line-height         : 18.0px;
+}
+.registrationeditmode .profilebody .profilebodytitle .portfolio {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 256px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(176, 179, 181, 1.0);
+  text-align          : right;
+  line-height         : 18.0px;
+}
+.registrationeditmode .profilebody .profilebodytitle .general {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 36px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : right;
+  line-height         : 18.0px;
+}
+.registrationeditmode .profileskillbrick {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 590px;
+  height              : 198px;
+  width               : 122px;
+  position            : absolute;
+  margin              : 0;
+  left                : 907px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profileskillbrick .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 192px;
+  width               : 117px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profileskillbrick .palettesred {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 81px;
+  height              : 117px;
+  width               : 122px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 6px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profileskillbrick .palettesred .mask {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 117px;
+  width               : 122px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 6px;
+  border-style        : solid;
+  border-width        : 3px;
+  border-color        : rgba(42, 44, 47, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profileskillbrick .palettesred .palettesred1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -8px;
+  height              : 132px;
+  width               : 132px;
+  position            : absolute;
+  margin              : 0;
+  left                : -5px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profileskillbrick .palettesred .palettesred1 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 132px;
+  width               : 132px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profileskillbrick .palettesred .palettesred1 .rectangle4 {
+  background-color    : rgba(0, 152, 62, 1.0);
+  top                 : 0px;
+  height              : 132px;
+  width               : 132px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profileskillbrick .brickred {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 191px;
+  width               : 122px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profileskillbrick .brickred .rectangle3 {
+  background-color    : rgba(19, 21, 24, 1.0);
+  top                 : 0px;
+  height              : 100px;
+  width               : 122px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 6px;
+  border-style        : solid;
+  border-width        : 3px;
+  border-color        : rgba(42, 44, 47, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profileskillbrick .brickred .path3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 94px;
+  height              : 6px;
+  width               : 119px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profileskillbrick .brickred .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 88px;
+  height              : 9px;
+  width               : 116px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profileskillbrick .brickred .avgrateu20ac4000per {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 114px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 28px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : center;
+  line-height         : 20.0px;
+}
+.registrationeditmode .profileskillbrick .brickred .skill22 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 64px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : center;
+  line-height         : 20.0px;
+}
+.registrationeditmode .profileskillbrick .brickred .skill12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 43px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 42px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : center;
+  line-height         : 20.0px;
+}
+.registrationeditmode .profileskillbrick .brickred .hashtag {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : auto;
+  width               : 23px;
+  position            : absolute;
+  margin              : 0;
+  left                : 50px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "FontAwesome", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(237, 22, 55, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.registrationeditmode .profileskillbrick1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 591px;
+  height              : 198px;
+  width               : 122px;
+  position            : absolute;
+  margin              : 0;
+  left                : 746px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profileskillbrick1 .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 192px;
+  width               : 117px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profileskillbrick1 .palettesred {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 81px;
+  height              : 117px;
+  width               : 122px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 6px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profileskillbrick1 .palettesred .mask {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 117px;
+  width               : 122px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 6px;
+  border-style        : solid;
+  border-width        : 3px;
+  border-color        : rgba(42, 44, 47, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profileskillbrick1 .palettesred .palettesred1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -8px;
+  height              : 132px;
+  width               : 132px;
+  position            : absolute;
+  margin              : 0;
+  left                : -5px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profileskillbrick1 .palettesred .palettesred1 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 132px;
+  width               : 132px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profileskillbrick1 .palettesred .palettesred1 .rectangle4 {
+  background-color    : rgba(0, 152, 62, 1.0);
+  top                 : 0px;
+  height              : 132px;
+  width               : 132px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profileskillbrick1 .brickred {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 191px;
+  width               : 122px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profileskillbrick1 .brickred .rectangle3 {
+  background-color    : rgba(19, 21, 24, 1.0);
+  top                 : 0px;
+  height              : 100px;
+  width               : 122px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 6px;
+  border-style        : solid;
+  border-width        : 3px;
+  border-color        : rgba(42, 44, 47, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profileskillbrick1 .brickred .path3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 94px;
+  height              : 6px;
+  width               : 119px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profileskillbrick1 .brickred .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 88px;
+  height              : 9px;
+  width               : 116px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profileskillbrick1 .brickred .avgrateu20ac4000per {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 114px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 28px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : center;
+  line-height         : 20.0px;
+}
+.registrationeditmode .profileskillbrick1 .brickred .skill22 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 64px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : center;
+  line-height         : 20.0px;
+}
+.registrationeditmode .profileskillbrick1 .brickred .skill12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 43px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 42px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : center;
+  line-height         : 20.0px;
+}
+.registrationeditmode .profileskillbrick1 .brickred .hashtag {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : auto;
+  width               : 23px;
+  position            : absolute;
+  margin              : 0;
+  left                : 50px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "FontAwesome", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(237, 22, 55, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.registrationeditmode .profileskillbrick2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 591px;
+  height              : 198px;
+  width               : 122px;
+  position            : absolute;
+  margin              : 0;
+  left                : 587px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profileskillbrick2 .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 192px;
+  width               : 117px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profileskillbrick2 .palettesred {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 81px;
+  height              : 117px;
+  width               : 122px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 6px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profileskillbrick2 .palettesred .mask {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 117px;
+  width               : 122px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 6px;
+  border-style        : solid;
+  border-width        : 3px;
+  border-color        : rgba(42, 44, 47, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profileskillbrick2 .palettesred .palettesred1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -8px;
+  height              : 132px;
+  width               : 132px;
+  position            : absolute;
+  margin              : 0;
+  left                : -5px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profileskillbrick2 .palettesred .palettesred1 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 132px;
+  width               : 132px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profileskillbrick2 .palettesred .palettesred1 .rectangle2 {
+  background-color    : rgba(80, 120, 191, 1.0);
+  top                 : 0px;
+  height              : 132px;
+  width               : 132px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profileskillbrick2 .brickred {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 191px;
+  width               : 122px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profileskillbrick2 .brickred .rectangle3 {
+  background-color    : rgba(19, 21, 24, 1.0);
+  top                 : 0px;
+  height              : 100px;
+  width               : 122px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 6px;
+  border-style        : solid;
+  border-width        : 3px;
+  border-color        : rgba(42, 44, 47, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profileskillbrick2 .brickred .path3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 94px;
+  height              : 6px;
+  width               : 119px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profileskillbrick2 .brickred .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 88px;
+  height              : 9px;
+  width               : 116px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profileskillbrick2 .brickred .avgrateu20ac4000per {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 114px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 28px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : center;
+  line-height         : 20.0px;
+}
+.registrationeditmode .profileskillbrick2 .brickred .skill22 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 64px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : center;
+  line-height         : 20.0px;
+}
+.registrationeditmode .profileskillbrick2 .brickred .skill12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 43px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 42px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : center;
+  line-height         : 20.0px;
+}
+.registrationeditmode .profileskillbrick2 .brickred .hashtag {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : auto;
+  width               : 23px;
+  position            : absolute;
+  margin              : 0;
+  left                : 50px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "FontAwesome", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(237, 22, 55, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.registrationeditmode .profileskillbrick3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 591px;
+  height              : 198px;
+  width               : 121px;
+  position            : absolute;
+  margin              : 0;
+  left                : 425px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profileskillbrick3 .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 192px;
+  width               : 118px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profileskillbrick3 .palettesred {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 81px;
+  height              : 117px;
+  width               : 121px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 6px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profileskillbrick3 .palettesred .mask {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 117px;
+  width               : 121px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 6px;
+  border-style        : solid;
+  border-width        : 3px;
+  border-color        : rgba(42, 44, 47, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profileskillbrick3 .palettesred .palettesred1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -8px;
+  height              : 132px;
+  width               : 133px;
+  position            : absolute;
+  margin              : 0;
+  left                : -6px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profileskillbrick3 .palettesred .palettesred1 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 132px;
+  width               : 133px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profileskillbrick3 .palettesred .palettesred1 .palettesred2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 132px;
+  width               : 133px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profileskillbrick3 .palettesred .palettesred1 .palettesred2 .rectangle {
+  background-color    : rgba(237, 22, 55, 0.85);
+  top                 : 0px;
+  height              : 132px;
+  width               : 133px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profileskillbrick3 .brickred {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 191px;
+  width               : 121px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profileskillbrick3 .brickred .rectangle3 {
+  background-color    : rgba(19, 21, 24, 1.0);
+  top                 : 0px;
+  height              : 100px;
+  width               : 121px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 6px;
+  border-style        : solid;
+  border-width        : 3px;
+  border-color        : rgba(42, 44, 47, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profileskillbrick3 .brickred .path3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 94px;
+  height              : 6px;
+  width               : 118px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profileskillbrick3 .brickred .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 88px;
+  height              : 9px;
+  width               : 115px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profileskillbrick3 .brickred .avgrateu20ac4000per {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 114px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 28px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : center;
+  line-height         : 20.0px;
+}
+.registrationeditmode .profileskillbrick3 .brickred .skill22 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 64px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : center;
+  line-height         : 20.0px;
+}
+.registrationeditmode .profileskillbrick3 .brickred .skill12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 43px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 42px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : center;
+  line-height         : 20.0px;
+}
+.registrationeditmode .profileskillbrick3 .brickred .hashtag {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : auto;
+  width               : 23px;
+  position            : absolute;
+  margin              : 0;
+  left                : 50px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "FontAwesome", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(237, 22, 55, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.registrationeditmode .skillscore {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 378px;
+  height              : 42px;
+  width               : 345px;
+  position            : absolute;
+  margin              : 0;
+  left                : 377px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .skillscore .urholkadbars {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 33px;
+  position            : absolute;
+  margin              : 0;
+  left                : 223px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .skillscore .blackbars {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 88px;
+  position            : absolute;
+  margin              : 0;
+  left                : 138px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .skillscore .a2bars {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 138px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .skillscore .a667 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 287px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Source Sans Pro", Helvetica, Arial, serif;
+  font-weight         : 900;
+  font-style          : normal;
+  font-size           : 20.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : left;
+  line-height         : 25.0px;
+}
+.registrationeditmode .skillscore .skillscore251 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 271px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 11.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : left;
+  line-height         : 13.0px;
+}
+.registrationeditmode .skillscore .presentation {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 26px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 141px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 11.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : right;
+  line-height         : 13.0px;
+}
+.registrationeditmode .skillscore .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 163px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 11.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : right;
+  line-height         : 13.0px;
+}
+.registrationeditmode .skillscore .a147 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 24px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 229px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Source Sans Pro", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : left;
+  line-height         : 15.0px;
+}
+.registrationeditmode .skillscore .a83 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 232px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Source Sans Pro", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : left;
+  line-height         : 15.0px;
+}
+.registrationeditmode .rectangle7 {
+  background-color    : rgba(215, 215, 215, 0.4);
+  top                 : 0px;
+  height              : 1440px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .nextbuttonyellow {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1082px;
+  height              : 59px;
+  width               : 173px;
+  position            : absolute;
+  margin              : 0;
+  left                : 652px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .nextbuttonyellow .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 170px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .nextbuttonyellow .nextbutton {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 59px;
+  width               : 173px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .nextbuttonyellow .nextbutton .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 59px;
+  width               : 173px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .nextbuttonyellow .nextbutton .rectanglecopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 170px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .nextbuttonyellow .nextbutton .play {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 20px;
+  height              : 17px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 115px;
+  -ms-transform       : rotate(1deg); /* IE 9 */
+  -webkit-transform   : rotate(1deg); /* Chrome, Safari, Opera */
+  transform           : rotate(1deg);
+  opacity             : 0.9;
+}
+.registrationeditmode .nextbuttonyellow .nextbutton .next {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 19px;
+  height              : auto;
+  width               : 96px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "Source Sans Pro", Helvetica, Arial, serif;
+  font-weight         : 900;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : right;
+  letter-spacing      : 1.53px;
+  line-height         : 23.0px;
+}
+.registrationeditmode .profilepaydropdown {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 824px;
+  height              : 178px;
+  width               : 285px;
+  position            : absolute;
+  margin              : 0;
+  left                : 746px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profilepaydropdown .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 175px;
+  width               : 281px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profilepaydropdown .paymentopt {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 178px;
+  width               : 285px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profilepaydropdown .paymentopt .rectangle5copy {
+  background-color    : rgba(19, 21, 24, 1.0);
+  top                 : 42px;
+  height              : 136px;
+  width               : 281px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  border-radius       : 6px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(176, 179, 181, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profilepaydropdown .paymentopt .rectangle5 {
+  background-color    : rgba(47, 50, 54, 1.0);
+  top                 : 0px;
+  height              : 49px;
+  width               : 285px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(249, 142, 0, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profilepaydropdown .paymentopt .other {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 132px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 50px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.registrationeditmode .profilepaydropdown .paymentopt .emptycheckbox {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 130px;
+  height              : 21px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profilepaydropdown .paymentopt .emptycheckbox .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 21px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profilepaydropdown .paymentopt .emptycheckbox .rectangle6copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 19px;
+  width               : 19px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  border-radius       : 1px;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(239, 242, 245, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profilepaydropdown .paymentopt .paypal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 98px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 50px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.registrationeditmode .profilepaydropdown .paymentopt .emptycheckbox1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 94px;
+  height              : 21px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profilepaydropdown .paymentopt .emptycheckbox1 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 21px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profilepaydropdown .paymentopt .emptycheckbox1 .rectangle6copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 19px;
+  width               : 19px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  border-radius       : 1px;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(239, 242, 245, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profilepaydropdown .paymentopt .emptycheckbox1 .tickwhite {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 16px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profilepaydropdown .paymentopt .emptycheckbox1 .tickwhite .background2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profilepaydropdown .paymentopt .emptycheckbox1 .tickwhite .shapecopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profilepaydropdown .paymentopt .invoice {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 62px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 50px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.registrationeditmode .profilepaydropdown .paymentopt .emptycheckbox2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 59px;
+  height              : 21px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profilepaydropdown .paymentopt .emptycheckbox2 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 21px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profilepaydropdown .paymentopt .emptycheckbox2 .rectangle6copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 19px;
+  width               : 19px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  border-radius       : 1px;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(239, 242, 245, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profilepaydropdown .paymentopt .arrowdropdownsmallopen {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 18px;
+  height              : 10px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 243px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profilepaydropdown .paymentopt .arrowdropdownsmallopen .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 10px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profilepaydropdown .paymentopt .arrowdropdownsmallopen .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 9px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profilepaydropdown .paymentopt .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : auto;
+  width               : 172px;
+  position            : absolute;
+  margin              : 0;
+  left                : 57px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : center;
+  line-height         : 20.0px;
+}
+.registrationeditmode .profileavaildropdown {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 824px;
+  height              : 214px;
+  width               : 285px;
+  position            : absolute;
+  margin              : 0;
+  left                : 425px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profileavaildropdown .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 211px;
+  width               : 281px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profileavaildropdown .availability {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 214px;
+  width               : 285px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profileavaildropdown .availability .rectangle5copy {
+  background-color    : rgba(19, 21, 24, 1.0);
+  top                 : 42px;
+  height              : 172px;
+  width               : 281px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  border-radius       : 6px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(176, 179, 181, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profileavaildropdown .availability .rectangle5 {
+  background-color    : rgba(47, 50, 54, 1.0);
+  top                 : 0px;
+  height              : 49px;
+  width               : 285px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(249, 142, 0, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profileavaildropdown .availability .notavailableatm {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 166px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.registrationeditmode .profileavaildropdown .availability .inafewmonths {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 140px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.registrationeditmode .profileavaildropdown .availability .withinamonth {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 114px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.registrationeditmode .profileavaildropdown .availability .withinaweek {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 88px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.registrationeditmode .profileavaildropdown .availability .immediately {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 62px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.registrationeditmode .profileavaildropdown .availability .availability1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : auto;
+  width               : 122px;
+  position            : absolute;
+  margin              : 0;
+  left                : 82px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : center;
+  line-height         : 20.0px;
+}
+.registrationeditmode .profileavaildropdown .availability .arrowdropdownsmallopen {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 20px;
+  height              : 10px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 243px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profileavaildropdown .availability .arrowdropdownsmallopen .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 10px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profileavaildropdown .availability .arrowdropdownsmallopen .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 9px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .instructionbubbletxt {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 738px;
+  height              : 85px;
+  width               : 312px;
+  position            : absolute;
+  margin              : 0;
+  left                : 748px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .instructionbubbletxt .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 85px;
+  width               : 312px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .instructionbubbletxt .bubbleprofilepicture {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 85px;
+  width               : 312px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .instructionbubbletxt .bubbleprofilepicture .rectangle5copy3 {
+  background-color    : rgba(249, 142, 0, 1.0);
+  top                 : 0px;
+  height              : 65px;
+  width               : 312px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .instructionbubbletxt .bubbleprofilepicture .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 58px;
+  height              : 28px;
+  width               : 27px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  -ms-transform       : rotate(90deg); /* IE 9 */
+  -webkit-transform   : rotate(90deg); /* Chrome, Safari, Opera */
+  transform           : rotate(90deg);
+}
+.registrationeditmode .instructionbubbletxt .bubbleprofilepicture .uploadarepresentat {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 20px;
+  height              : auto;
+  width               : 314px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(32, 33, 35, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.registrationeditmode .instructionbubbletxt .bubbleprofilepicture .skip {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 45px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 275px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : italic;
+  font-size           : 11.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : justify;
+  line-height         : 13.0px;
+}
+.registrationeditmode .instructionbubbletxt1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 737px;
+  height              : 85px;
+  width               : 312px;
+  position            : absolute;
+  margin              : 0;
+  left                : 425px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .instructionbubbletxt1 .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 85px;
+  width               : 312px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .instructionbubbletxt1 .bubbleprofilepicture {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 85px;
+  width               : 312px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .instructionbubbletxt1 .bubbleprofilepicture .rectangle5copy3 {
+  background-color    : rgba(249, 142, 0, 1.0);
+  top                 : 0px;
+  height              : 65px;
+  width               : 312px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .instructionbubbletxt1 .bubbleprofilepicture .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 58px;
+  height              : 28px;
+  width               : 27px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  -ms-transform       : rotate(90deg); /* IE 9 */
+  -webkit-transform   : rotate(90deg); /* Chrome, Safari, Opera */
+  transform           : rotate(90deg);
+}
+.registrationeditmode .instructionbubbletxt1 .bubbleprofilepicture .uploadarepresentat {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 20px;
+  height              : auto;
+  width               : 314px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(32, 33, 35, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.registrationeditmode .instructionbubbletxt1 .bubbleprofilepicture .skip {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 45px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 275px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : italic;
+  font-size           : 11.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : justify;
+  line-height         : 13.0px;
+}
+.registrationeditmode .instructionbubbletxt2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 160px;
+  height              : 85px;
+  width               : 312px;
+  position            : absolute;
+  margin              : 0;
+  left                : 771px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .instructionbubbletxt2 .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 85px;
+  width               : 312px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .instructionbubbletxt2 .bubbleprofilepicture {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 85px;
+  width               : 312px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .instructionbubbletxt2 .bubbleprofilepicture .rectangle5copy3 {
+  background-color    : rgba(249, 142, 0, 1.0);
+  top                 : 0px;
+  height              : 65px;
+  width               : 312px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .instructionbubbletxt2 .bubbleprofilepicture .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 58px;
+  height              : 28px;
+  width               : 27px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  -ms-transform       : rotate(90deg); /* IE 9 */
+  -webkit-transform   : rotate(90deg); /* Chrome, Safari, Opera */
+  transform           : rotate(90deg);
+}
+.registrationeditmode .instructionbubbletxt2 .bubbleprofilepicture .uploadarepresentat {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 20px;
+  height              : auto;
+  width               : 314px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(32, 33, 35, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.registrationeditmode .instructionbubbletxt2 .bubbleprofilepicture .skip {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 45px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 275px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : italic;
+  font-size           : 11.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : justify;
+  line-height         : 13.0px;
+}
+.registrationeditmode .fieldeditmodetxtintroactive {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 251px;
+  height              : 49px;
+  width               : 396px;
+  position            : absolute;
+  margin              : 0;
+  left                : 524px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .fieldeditmodetxtintroactive .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 45px;
+  width               : 392px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .fieldeditmodetxtintroactive .fieldsettingsintroactive {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 49px;
+  width               : 396px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .fieldeditmodetxtintroactive .fieldsettingsintroactive .rectangle5copy {
+  background-color    : rgba(141, 141, 142, 1.0);
+  top                 : 0px;
+  height              : 49px;
+  width               : 396px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(249, 142, 0, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .fieldeditmodetxtintroactive .fieldsettingsintroactive .txt {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : 258px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(19, 21, 24, 1.0);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.registrationeditmode .profilepictureexample {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 219px;
+  height              : 122px;
+  width               : 134px;
+  position            : absolute;
+  margin              : 0;
+  left                : 377px;
+  border-radius       : 4px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profilepictureexample .rectangle4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 119px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  -ms-transform       : rotate(180deg); /* IE 9 */
+  -webkit-transform   : rotate(180deg); /* Chrome, Safari, Opera */
+  transform           : rotate(180deg);
+}
+.registrationeditmode .profilepictureexample .rectangle4copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 116px;
+  width               : 126px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(180deg); /* IE 9 */
+  -webkit-transform   : rotate(180deg); /* Chrome, Safari, Opera */
+  transform           : rotate(180deg);
+}
+.registrationeditmode .profilepictureexample .neunregissou0308rjoykors {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -12px;
+  height              : 150px;
+  width               : 266px;
+  position            : absolute;
+  margin              : 0;
+  left                : -8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profilepictureexample .editpen {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 44px;
+  height              : 35px;
+  width               : 35px;
+  position            : absolute;
+  margin              : 0;
+  left                : 50px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profilepictureexample .editpen .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 35px;
+  width               : 35px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profilepictureexample .editpen .editpen1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 35px;
+  width               : 35px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profilepictureexample .editpen .editpen1 .oval3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 35px;
+  width               : 35px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .profilepictureexample .editpen .editpen1 .editbadge {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 35px;
+  width               : 35px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .instructionbubbletxt3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 145px;
+  height              : 85px;
+  width               : 312px;
+  position            : absolute;
+  margin              : 0;
+  left                : 443px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .instructionbubbletxt3 .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 85px;
+  width               : 312px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .instructionbubbletxt3 .bubbleprofilepicture {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 85px;
+  width               : 312px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .instructionbubbletxt3 .bubbleprofilepicture .rectangle5copy3 {
+  background-color    : rgba(249, 142, 0, 1.0);
+  top                 : 0px;
+  height              : 65px;
+  width               : 312px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.registrationeditmode .instructionbubbletxt3 .bubbleprofilepicture .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 58px;
+  height              : 28px;
+  width               : 27px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  -ms-transform       : rotate(90deg); /* IE 9 */
+  -webkit-transform   : rotate(90deg); /* Chrome, Safari, Opera */
+  transform           : rotate(90deg);
+}
+.registrationeditmode .instructionbubbletxt3 .bubbleprofilepicture .uploadarepresentat {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 20px;
+  height              : auto;
+  width               : 314px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(32, 33, 35, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.registrationeditmode .instructionbubbletxt3 .bubbleprofilepicture .skip {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 45px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 275px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : italic;
+  font-size           : 11.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : justify;
+  line-height         : 13.0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}

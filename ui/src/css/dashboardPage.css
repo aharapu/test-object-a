@@ -1,0 +1,2909 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:900,400,700,300|Roboto:400,700,500,300,900');
+
+@font-face {
+  font-family: "FontAwesome";
+  src: url('../fonts/FontAwesome.otf') format("opentype");
+}
+@font-face {
+  font-family: "SourceSansPro-SemiBold";
+  src: url('../fonts/SourceSansPro-SemiBold.ttf') format("truetype");
+}
+
+.dashboardpage {
+  width               : 100%;
+  min-width           : 1444px;
+  height              : 100vh;
+  min-height          : 1567px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background-color    : rgba(42, 44, 47, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.dashboardpage .elementskeletonbasesearchfield {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1565px;
+  width               : 1444px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .elementskeletonbasesearchfield .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 1565px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .elementskeletonbasesearchfield .skeletonelements {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1567px;
+  width               : 1444px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .elementskeletonbasesearchfield .skeletonelements .rectangle2 {
+  background-color    : rgba(20, 21, 23, 1.0);
+  top                 : 1517px;
+  height              : 50px;
+  width               : 1444px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(51, 52, 55, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .elementskeletonbasesearchfield .skeletonelements .rectangle21 {
+  background-color    : rgba(20, 21, 23, 1.0);
+  top                 : 0px;
+  height              : 49px;
+  width               : 1444px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(51, 52, 55, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .elementskeletonbasesearchfield .skeletonelements .getstarted {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1535px;
+  height              : auto;
+  width               : 89px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1331px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(249, 142, 0, 1.0);
+  text-align          : right;
+  line-height         : 20.0px;
+}
+.dashboardpage .elementskeletonbasesearchfield .skeletonelements .aboutskilldar {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1535px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1211px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(0, 152, 62, 1.0);
+  text-align          : right;
+  line-height         : 20.0px;
+}
+.dashboardpage .elementskeletonbasesearchfield .skeletonelements .privacy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1533px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 91px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(145, 146, 149, 1.0);
+  text-align          : left;
+  line-height         : 20.0px;
+}
+.dashboardpage .elementskeletonbasesearchfield .skeletonelements .terms {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1533px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(145, 146, 149, 1.0);
+  text-align          : left;
+  line-height         : 20.0px;
+}
+.dashboardpage .elementskeletonbasesearchfield .skeletonelements .elementssearchfieldlogo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 69px;
+  height              : 49px;
+  width               : 723px;
+  position            : absolute;
+  margin              : 0;
+  left                : 354px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .elementskeletonbasesearchfield .skeletonelements .elementssearchfieldlogo .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 49px;
+  width               : 720px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .elementskeletonbasesearchfield .skeletonelements .elementssearchfieldlogo .searchfield {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 49px;
+  width               : 723px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .elementskeletonbasesearchfield .skeletonelements .elementssearchfieldlogo .searchfield .searchcontainer {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 48px;
+  width               : 488px;
+  position            : absolute;
+  margin              : 0;
+  left                : 235px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .elementskeletonbasesearchfield .skeletonelements .elementssearchfieldlogo .searchfield .iconsearch {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 690px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.5;
+}
+.dashboardpage .elementskeletonbasesearchfield .skeletonelements .elementssearchfieldlogo .searchfield .iconsearch .searchmaterial {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 15px;
+  width               : 15px;
+  position            : relative;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .elementskeletonbasesearchfield .skeletonelements .elementssearchfieldlogo .searchfield .search {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : 36px;
+  width               : 52px;
+  position            : absolute;
+  margin              : 0;
+  left                : 251px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .elementskeletonbasesearchfield .skeletonelements .elementssearchfieldlogo .searchfield .search .search1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.5;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 19.0px;
+}
+.dashboardpage .elementskeletonbasesearchfield .skeletonelements .elementssearchfieldlogo .searchfield .logoskilldarreclight {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 27px;
+  width               : 215px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .elementskeletonbasesearchfield .skeletonelements .elementssearchfieldlogo .searchfield .logoskilldarreclight .background2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 27px;
+  width               : 215px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .elementskeletonbasesearchfield .skeletonelements .elementssearchfieldlogo .searchfield .logoskilldarreclight .darkhorizontalv3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 27px;
+  width               : 214px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .elementskeletonbasesearchfield .skeletonelements .iconsskilldarlogin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 20px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1398px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .elementskeletonbasesearchfield .skeletonelements .iconsskilldarlogin .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .elementskeletonbasesearchfield .skeletonelements .iconsskilldarlogin .signinfontawesome {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.8;
+}
+.dashboardpage .elementskeletonbasesearchfield .skeletonelements .login {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1349px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(80, 120, 191, 1.0);
+  text-align          : right;
+  line-height         : 20.0px;
+}
+.dashboardpage .elementskeletonbasesearchfield .skeletonelements .iconsfacebook {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 20px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1309px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .elementskeletonbasesearchfield .skeletonelements .iconsfacebook .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .elementskeletonbasesearchfield .skeletonelements .iconsfacebook .twitter16 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .elementskeletonbasesearchfield .skeletonelements .iconsfacebook .twitter16 .rectangle {
+  background-color    : rgba(141, 141, 142, 1.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .elementskeletonbasesearchfield .skeletonelements .iconsfacebook .twitter16 .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 11px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .elementskeletonbasesearchfield .skeletonelements .iconsinstagram {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 20px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1280px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .elementskeletonbasesearchfield .skeletonelements .iconsinstagram .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .elementskeletonbasesearchfield .skeletonelements .iconsinstagram .instagramfontawesome {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .elementskeletonbasesearchfield .skeletonelements .browseskills {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 20px;
+  width               : 102px;
+  position            : absolute;
+  margin              : 0;
+  left                : 53px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .elementskeletonbasesearchfield .skeletonelements .iconsskilldarhashtag {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .elementskeletonbasesearchfield .skeletonelements .iconsskilldarhashtag .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .elementskeletonbasesearchfield .skeletonelements .iconsskilldarhashtag .uf292 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "FontAwesome", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(237, 22, 55, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.dashboardpage .profilebody {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 640px;
+  height              : 850px;
+  width               : 690px;
+  position            : absolute;
+  margin              : 0;
+  left                : 377px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .profilebody .rectanglebigcopy {
+  background-color    : rgba(47, 50, 54, 1.0);
+  top                 : 0px;
+  height              : 850px;
+  width               : 690px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 6px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .buttonsettingseditprofileactive {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1365px;
+  height              : 54px;
+  width               : 278px;
+  position            : absolute;
+  margin              : 0;
+  left                : 584px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .buttonsettingseditprofileactive .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 53px;
+  width               : 276px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .buttonsettingseditprofileactive .buttonsettingseditprofileactive1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 54px;
+  width               : 278px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .buttonsettingseditprofileactive .buttonsettingseditprofileactive1 .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 54px;
+  width               : 278px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .buttonsettingseditprofileactive .buttonsettingseditprofileactive1 .rectanglecopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 51px;
+  width               : 275px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .buttonsettingseditprofileactive .buttonsettingseditprofileactive1 .billingoptions {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : auto;
+  width               : 173px;
+  position            : absolute;
+  margin              : 0;
+  left                : 52px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "Source Sans Pro", Helvetica, Arial, serif;
+  font-weight         : 900;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.53px;
+  line-height         : 23.0px;
+}
+.dashboardpage .drawersettingsopen {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1082px;
+  height              : 231px;
+  width               : 602px;
+  position            : absolute;
+  margin              : 0;
+  left                : 421px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .drawersettingsopen .rectangle5copy5 {
+  background-color    : rgba(42, 44, 47, 1.0);
+  top                 : 54px;
+  height              : 180px;
+  width               : 596px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  border-radius       : 9px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .drawersettingsopen .buttonsaveflatsettings {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 195px;
+  height              : 19px;
+  width               : 51px;
+  position            : absolute;
+  margin              : 0;
+  left                : 472px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .drawersettingsopen .buttonsaveflatsettings .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 19px;
+  width               : 51px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .drawersettingsopen .buttonsaveflatsettings .buttonsaveflatsettings1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 19px;
+  width               : 51px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .drawersettingsopen .buttonsaveflatsettings .buttonsaveflatsettings1 .play {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : 12px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 41px;
+  -ms-transform       : rotate(1deg); /* IE 9 */
+  -webkit-transform   : rotate(1deg); /* Chrome, Safari, Opera */
+  transform           : rotate(1deg);
+  opacity             : 0.9;
+}
+.dashboardpage .drawersettingsopen .buttonsaveflatsettings .buttonsaveflatsettings1 .savecopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Source Sans Pro", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(249, 142, 0, 1.0);
+  text-align          : center;
+  line-height         : 19.0px;
+}
+.dashboardpage .drawersettingsopen .fieldtypetxtsettingsblack {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 145px;
+  height              : 31px;
+  width               : 334px;
+  position            : absolute;
+  margin              : 0;
+  left                : 189px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .drawersettingsopen .fieldtypetxtsettingsblack .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 31px;
+  width               : 334px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .drawersettingsopen .fieldtypetxtsettingsblack .rectangle5copy7 {
+  background-color    : rgba(19, 21, 24, 1.0);
+  top                 : 0px;
+  height              : 31px;
+  width               : 334px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 6px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .drawersettingsopen .a2ndline {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 150px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 63px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.dashboardpage .drawersettingsopen .fieldtypetxtsettingsblack1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 99px;
+  height              : 31px;
+  width               : 334px;
+  position            : absolute;
+  margin              : 0;
+  left                : 189px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .drawersettingsopen .fieldtypetxtsettingsblack1 .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 31px;
+  width               : 334px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .drawersettingsopen .fieldtypetxtsettingsblack1 .rectangle5copy7 {
+  background-color    : rgba(19, 21, 24, 1.0);
+  top                 : 0px;
+  height              : 31px;
+  width               : 334px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 6px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .drawersettingsopen .a1stline {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 104px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 53px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.dashboardpage .drawersettingsopen .redexclamation {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 105px;
+  height              : 17px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 534px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .drawersettingsopen .redexclamation .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 17px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .drawersettingsopen .redexclamation .a2excl {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 17px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .drawersettingsopen .redexclamation .a2excl .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .drawersettingsopen .redexclamation .a2excl .shape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 10px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .drawersettingsopen .rectangle5copy6 {
+  background-color    : rgba(42, 44, 47, 1.0);
+  top                 : 0px;
+  height              : 62px;
+  width               : 602px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 6px;
+  border-style        : solid;
+  border-width        : 3px;
+  border-color        : rgba(249, 142, 0, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .drawersettingsopen .arrowdropdownsmallopen {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 23px;
+  height              : 14px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 539px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .drawersettingsopen .arrowdropdownsmallopen .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .drawersettingsopen .arrowdropdownsmallopen .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 12px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .drawersettingsopen .changecompanydetai {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 21px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.dashboardpage .drawersettingmediumopen {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 778px;
+  height              : 272px;
+  width               : 602px;
+  position            : absolute;
+  margin              : 0;
+  left                : 421px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .drawersettingmediumopen .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 272px;
+  width               : 596px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .drawersettingmediumopen .drawersettingmediumopen1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 272px;
+  width               : 602px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .drawersettingmediumopen .drawersettingmediumopen1 .rectangle5copy5 {
+  background-color    : rgba(42, 44, 47, 1.0);
+  top                 : 54px;
+  height              : 221px;
+  width               : 596px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  border-radius       : 9px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .drawersettingmediumopen .drawersettingmediumopen1 .buttonsaveflatsettings {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 238px;
+  height              : 19px;
+  width               : 51px;
+  position            : absolute;
+  margin              : 0;
+  left                : 475px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .drawersettingmediumopen .drawersettingmediumopen1 .buttonsaveflatsettings .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 19px;
+  width               : 51px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .drawersettingmediumopen .drawersettingmediumopen1 .buttonsaveflatsettings .buttonsaveflatsettings1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 19px;
+  width               : 51px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .drawersettingmediumopen .drawersettingmediumopen1 .buttonsaveflatsettings .buttonsaveflatsettings1 .play {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : 12px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 41px;
+  -ms-transform       : rotate(1deg); /* IE 9 */
+  -webkit-transform   : rotate(1deg); /* Chrome, Safari, Opera */
+  transform           : rotate(1deg);
+  opacity             : 0.9;
+}
+.dashboardpage .drawersettingmediumopen .drawersettingmediumopen1 .buttonsaveflatsettings .buttonsaveflatsettings1 .savecopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Source Sans Pro", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(249, 142, 0, 1.0);
+  text-align          : center;
+  line-height         : 19.0px;
+}
+.dashboardpage .drawersettingmediumopen .drawersettingmediumopen1 .rectangle5copy9 {
+  background-color    : rgba(19, 21, 24, 1.0);
+  top                 : 191px;
+  height              : 31px;
+  width               : 334px;
+  position            : absolute;
+  margin              : 0;
+  left                : 193px;
+  border-radius       : 6px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .drawersettingmediumopen .drawersettingmediumopen1 .verifypassword {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 198px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 59px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.dashboardpage .drawersettingmediumopen .drawersettingmediumopen1 .rectangle5copy8 {
+  background-color    : rgba(19, 21, 24, 1.0);
+  top                 : 145px;
+  height              : 31px;
+  width               : 334px;
+  position            : absolute;
+  margin              : 0;
+  left                : 193px;
+  border-radius       : 6px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .drawersettingmediumopen .drawersettingmediumopen1 .newpassword {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 150px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 68px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.dashboardpage .drawersettingmediumopen .drawersettingmediumopen1 .rectangle5copy7 {
+  background-color    : rgba(19, 21, 24, 1.0);
+  top                 : 99px;
+  height              : 31px;
+  width               : 334px;
+  position            : absolute;
+  margin              : 0;
+  left                : 193px;
+  border-radius       : 6px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .drawersettingmediumopen .drawersettingmediumopen1 .currentpassword {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 104px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 48px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.dashboardpage .drawersettingmediumopen .drawersettingmediumopen1 .redexclamation {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 105px;
+  height              : 17px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 538px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .drawersettingmediumopen .drawersettingmediumopen1 .redexclamation .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 17px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .drawersettingmediumopen .drawersettingmediumopen1 .redexclamation .a2excl {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 17px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .drawersettingmediumopen .drawersettingmediumopen1 .redexclamation .a2excl .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .drawersettingmediumopen .drawersettingmediumopen1 .redexclamation .a2excl .shape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 10px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .drawersettingmediumopen .drawersettingmediumopen1 .rectangle5copy6 {
+  background-color    : rgba(42, 44, 47, 1.0);
+  top                 : 0px;
+  height              : 62px;
+  width               : 602px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 6px;
+  border-style        : solid;
+  border-width        : 3px;
+  border-color        : rgba(249, 142, 0, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .drawersettingmediumopen .drawersettingmediumopen1 .arrowdropdownsmallopen {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 23px;
+  height              : 14px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 539px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .drawersettingmediumopen .drawersettingmediumopen1 .arrowdropdownsmallopen .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .drawersettingmediumopen .drawersettingmediumopen1 .arrowdropdownsmallopen .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 12px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .drawersettingmediumopen .drawersettingmediumopen1 .changeloginpasswor {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 21px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.dashboardpage .drawersettingsmallclosed {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 685px;
+  height              : 62px;
+  width               : 602px;
+  position            : absolute;
+  margin              : 0;
+  left                : 421px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .drawersettingsmallclosed .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 56px;
+  width               : 596px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .drawersettingsmallclosed .drawersettingsmallclosed1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 62px;
+  width               : 602px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .drawersettingsmallclosed .drawersettingsmallclosed1 .rectangle5copy5 {
+  background-color    : rgba(42, 44, 47, 1.0);
+  top                 : 0px;
+  height              : 62px;
+  width               : 602px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 6px;
+  border-style        : solid;
+  border-width        : 3px;
+  border-color        : rgba(74, 73, 74, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .drawersettingsmallclosed .drawersettingsmallclosed1 .shapecopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 24px;
+  height              : 14px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 534px;
+  -ms-transform       : rotate(-90deg); /* IE 9 */
+  -webkit-transform   : rotate(-90deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-90deg);
+}
+.dashboardpage .drawersettingsmallclosed .drawersettingsmallclosed1 .changeloginnameemcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 22px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.dashboardpage .personalterminal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 366px;
+  height              : 252px;
+  width               : 672px;
+  position            : absolute;
+  margin              : 0;
+  left                : 387px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .personalterminal .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 252px;
+  width               : 672px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .personalterminal .arrowdropdownsmallopen {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 226px;
+  height              : 8px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 638px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .personalterminal .arrowdropdownsmallopen .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 8px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .personalterminal .arrowdropdownsmallopen .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 7px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .personalterminal .a15paddedcontac {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 116px;
+  height              : auto;
+  width               : 394px;
+  position            : absolute;
+  margin              : 0;
+  left                : 140px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(0, 152, 62, 1.0);
+  text-align          : left;
+  letter-spacing      : 3.4px;
+  line-height         : 16.0px;
+}
+.dashboardpage .personalterminal .a25pupdatedprof {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 137px;
+  height              : auto;
+  width               : 405px;
+  position            : absolute;
+  margin              : 0;
+  left                : 140px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(249, 142, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : 3.4px;
+  line-height         : 16.0px;
+}
+.dashboardpage .personalterminal .a25puploadedpic {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 158px;
+  height              : auto;
+  width               : 405px;
+  position            : absolute;
+  margin              : 0;
+  left                : 140px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(249, 142, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : 3.4px;
+  line-height         : 16.0px;
+}
+.dashboardpage .personalterminal .a55paddededito {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 179px;
+  height              : auto;
+  width               : 405px;
+  position            : absolute;
+  margin              : 0;
+  left                : 140px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(237, 22, 55, 1.0);
+  text-align          : left;
+  letter-spacing      : 3.4px;
+  line-height         : 16.0px;
+}
+.dashboardpage .personalterminal .a15paddedaudio {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 200px;
+  height              : auto;
+  width               : 405px;
+  position            : absolute;
+  margin              : 0;
+  left                : 140px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(80, 120, 191, 1.0);
+  text-align          : left;
+  letter-spacing      : 3.4px;
+  line-height         : 16.0px;
+}
+.dashboardpage .personalterminal .a90pwrotearevi {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 221px;
+  height              : auto;
+  width               : 405px;
+  position            : absolute;
+  margin              : 0;
+  left                : 140px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(0, 152, 62, 1.0);
+  text-align          : left;
+  letter-spacing      : 3.4px;
+  line-height         : 16.0px;
+}
+.dashboardpage .personalterminal .myscoreboard {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 87px;
+  height              : auto;
+  width               : 137px;
+  position            : absolute;
+  margin              : 0;
+  left                : 268px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(249, 142, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : 1.5px;
+  line-height         : 16.0px;
+}
+.dashboardpage .personalterminal .iconstxtdashboardvisits {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 22px;
+  height              : 33px;
+  width               : 168px;
+  position            : absolute;
+  margin              : 0;
+  left                : 23px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .personalterminal .iconstxtdashboardvisits .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 33px;
+  width               : 168px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .personalterminal .iconstxtdashboardvisits .fontssourcesemibitalic {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 33px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 38px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .personalterminal .iconstxtdashboardvisits .fontssourcesemibitalic .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 33px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .personalterminal .iconstxtdashboardvisits .fontssourcesemibitalic .fontssourcesemibitalic1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "SourceSansPro-SemiBold", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : left;
+  letter-spacing      : 1.53px;
+  line-height         : 18.0px;
+}
+.dashboardpage .personalterminal .iconstxtdashboardvisits .iconsprofilevisitsactive {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 30px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .personalterminal .iconstxtdashboardvisits .iconsprofilevisitsactive .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .personalterminal .iconstxtdashboardvisits .iconsprofilevisitsactive .iconsprofilevisitsactive1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .personalterminal .iconstxtdashboardvisits .iconsprofilevisitsactive .iconsprofilevisitsactive1 .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.88;
+}
+.dashboardpage .personalterminal .iconstxtdashboardvisits .iconsprofilevisitsactive .iconsprofilevisitsactive1 .shape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 10px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.88;
+}
+.dashboardpage .personalterminal .iconstxtdashboardreviews {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 25px;
+  height              : 29px;
+  width               : 157px;
+  position            : absolute;
+  margin              : 0;
+  left                : 251px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .personalterminal .iconstxtdashboardreviews .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 29px;
+  width               : 157px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .personalterminal .iconstxtdashboardreviews .fontsourceactive {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 18px;
+  width               : 118px;
+  position            : absolute;
+  margin              : 0;
+  left                : 39px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .personalterminal .iconstxtdashboardreviews .fontsourceactive .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 18px;
+  width               : 118px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .personalterminal .iconstxtdashboardreviews .fontsourceactive .newreviews3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "SourceSansPro-SemiBold", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : left;
+  letter-spacing      : 1.53px;
+  line-height         : 18.0px;
+}
+.dashboardpage .personalterminal .iconstxtdashboardreviews .iconsreviewsactive {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 29px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .personalterminal .iconstxtdashboardreviews .iconsreviewsactive .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 29px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .personalterminal .iconstxtdashboardreviews .iconsreviewsactive .iconsreviewsactive1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 29px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .personalterminal .iconstxtdashboardreviews .iconsreviewsactive .iconsreviewsactive1 .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 23px;
+  height              : 5px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .personalterminal .iconstxtdashboardreviews .iconsreviewsactive .iconsreviewsactive1 .shape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 5px;
+  width               : 27px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .personalterminal .iconstxtdashboardreviews .iconsreviewsactive .iconsreviewsactive1 .shape2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 8px;
+  height              : 5px;
+  width               : 32px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .personalterminal .iconstxtdashboardreviews .iconsreviewsactive .iconsreviewsactive1 .shape3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 5px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .personalterminal .iconstxtdashboardmail {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 24px;
+  height              : 33px;
+  width               : 167px;
+  position            : absolute;
+  margin              : 0;
+  left                : 467px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .personalterminal .iconstxtdashboardmail .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 33px;
+  width               : 167px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .personalterminal .iconstxtdashboardmail .infoicon {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 20px;
+  height              : 13px;
+  width               : 13px;
+  position            : absolute;
+  margin              : 0;
+  left                : 149px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .personalterminal .iconstxtdashboardmail .infoicon .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 13px;
+  width               : 13px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .personalterminal .iconstxtdashboardmail .infoicon .infoicon1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 12px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .personalterminal .iconstxtdashboardmail .infoicon .infoicon1 .info {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 12px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .personalterminal .iconstxtdashboardmail .infoicon .infoicon1 .path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : 6px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .personalterminal .iconstxtdashboardmail .infoicon .infoicon1 .path1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 2px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .personalterminal .iconstxtdashboardmail .fontssourceregularitalic {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 33px;
+  width               : 127px;
+  position            : absolute;
+  margin              : 0;
+  left                : 40px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .personalterminal .iconstxtdashboardmail .fontssourceregularitalic .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 33px;
+  width               : 127px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .personalterminal .iconstxtdashboardmail .fontssourceregularitalic .fontssourceregularitalic1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Source Sans Pro", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(176, 179, 181, 1.0);
+  text-align          : left;
+  letter-spacing      : 1.53px;
+  line-height         : 18.0px;
+}
+.dashboardpage .personalterminal .iconstxtdashboardmail .iconsdashboardmailinactive {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : 23px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .personalterminal .iconstxtdashboardmail .iconsdashboardmailinactive .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 23px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .personalterminal .iconstxtdashboardmail .iconsdashboardmailinactive .iconsdashboardmailinactive1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 23px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .personalterminal .iconstxtdashboardmail .iconsdashboardmailinactive .iconsdashboardmailinactive1 .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 23px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .personalterminal .iconstxtdashboardmail .iconsdashboardmailinactive .iconsdashboardmailinactive1 .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : 14px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .personalterminal .iconstxtdashboardmail .iconsdashboardmailinactive .iconsdashboardmailinactive1 .image1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 15px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .menuleft4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 445px;
+  height              : 181px;
+  width               : 177px;
+  position            : absolute;
+  margin              : 0;
+  left                : 182px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .menuleft4 .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 181px;
+  width               : 177px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .menuleft4 .elemenymenuleft3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 142px;
+  width               : 170px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .menuleft4 .elemenymenuleft3 .rectangle2 {
+  background-color    : rgba(74, 73, 74, 1.0);
+  top                 : 5px;
+  height              : 133px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .menuleft4 .elemenymenuleft3 .fontrobotosemiboldgrey15copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 124px;
+  height              : 18px;
+  width               : 120px;
+  position            : absolute;
+  margin              : 0;
+  left                : 50px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .menuleft4 .elemenymenuleft3 .fontrobotosemiboldgrey15copy .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 18px;
+  width               : 120px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .menuleft4 .elemenymenuleft3 .fontrobotosemiboldgrey15copy .fontrobotosemiboldgrey152 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 120px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(176, 179, 181, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.dashboardpage .menuleft4 .elemenymenuleft3 .menuselectionsmallinactivecopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 131px;
+  height              : 7px;
+  width               : 35px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .menuleft4 .elemenymenuleft3 .menuselectionsmallinactivecopy .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 7px;
+  width               : 35px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .menuleft4 .elemenymenuleft3 .menuselectionsmallinactivecopy .menuselectionsmallinactive2 {
+  background-color    : rgba(19, 21, 24, 1.0);
+  top                 : 0px;
+  height              : 7px;
+  width               : 35px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .menuleft4 .elemenymenuleft3 .fontrobotosemiboldgrey15 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 82px;
+  height              : 18px;
+  width               : 120px;
+  position            : absolute;
+  margin              : 0;
+  left                : 50px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .menuleft4 .elemenymenuleft3 .fontrobotosemiboldgrey15 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 18px;
+  width               : 120px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .menuleft4 .elemenymenuleft3 .fontrobotosemiboldgrey15 .fontrobotosemiboldgrey152 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 120px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(176, 179, 181, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.dashboardpage .menuleft4 .elemenymenuleft3 .menuselectionsmallinactive {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 89px;
+  height              : 7px;
+  width               : 35px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .menuleft4 .elemenymenuleft3 .menuselectionsmallinactive .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 7px;
+  width               : 35px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .menuleft4 .elemenymenuleft3 .menuselectionsmallinactive .menuselectionsmallinactive2 {
+  background-color    : rgba(19, 21, 24, 1.0);
+  top                 : 0px;
+  height              : 7px;
+  width               : 35px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .menuleft4 .elemenymenuleft3 .fontrobotosemiboldgrey151 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 41px;
+  height              : 18px;
+  width               : 120px;
+  position            : absolute;
+  margin              : 0;
+  left                : 50px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .menuleft4 .elemenymenuleft3 .fontrobotosemiboldgrey151 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 18px;
+  width               : 120px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .menuleft4 .elemenymenuleft3 .fontrobotosemiboldgrey151 .fontrobotosemiboldgrey152 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 120px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(176, 179, 181, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.dashboardpage .menuleft4 .elemenymenuleft3 .menuselectionsmallinactive1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 47px;
+  height              : 7px;
+  width               : 35px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .menuleft4 .elemenymenuleft3 .menuselectionsmallinactive1 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 7px;
+  width               : 35px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .menuleft4 .elemenymenuleft3 .menuselectionsmallinactive1 .menuselectionsmallinactive2 {
+  background-color    : rgba(19, 21, 24, 1.0);
+  top                 : 0px;
+  height              : 7px;
+  width               : 35px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .menuleft4 .elemenymenuleft3 .fontrobotosemiboldwhite15 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 18px;
+  width               : 120px;
+  position            : absolute;
+  margin              : 0;
+  left                : 50px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .menuleft4 .elemenymenuleft3 .fontrobotosemiboldwhite15 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 18px;
+  width               : 120px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .menuleft4 .elemenymenuleft3 .fontrobotosemiboldwhite15 .fontrobotowhite15 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 120px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 15.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.dashboardpage .menuleft4 .elemenymenuleft3 .menuselectionsmallactive {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 7px;
+  width               : 35px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .menuleft4 .elemenymenuleft3 .menuselectionsmallactive .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 7px;
+  width               : 35px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .menuleft4 .elemenymenuleft3 .menuselectionsmallactive .menuselectionsmallactive1 {
+  background-color    : rgba(249, 142, 0, 1.0);
+  top                 : 0px;
+  height              : 7px;
+  width               : 35px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .elementsettingsheader {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 196px;
+  height              : 230px;
+  width               : 692px;
+  position            : absolute;
+  margin              : 0;
+  left                : 376px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .elementsettingsheader .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 228px;
+  width               : 690px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .elementsettingsheader .elementsettingsheader1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 230px;
+  width               : 692px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .elementsettingsheader .elementsettingsheader1 .rectangle9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 230px;
+  width               : 692px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(42, 44, 47, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .elementsettingsheader .elementsettingsheader1 .skillscore {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 78px;
+  height              : 42px;
+  width               : 345px;
+  position            : absolute;
+  margin              : 0;
+  left                : 165px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .elementsettingsheader .elementsettingsheader1 .skillscore .urholkadbars {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 33px;
+  position            : absolute;
+  margin              : 0;
+  left                : 223px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .elementsettingsheader .elementsettingsheader1 .skillscore .blackbars {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 88px;
+  position            : absolute;
+  margin              : 0;
+  left                : 138px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .elementsettingsheader .elementsettingsheader1 .skillscore .a2bars {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 138px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .elementsettingsheader .elementsettingsheader1 .skillscore .a667 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 287px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Source Sans Pro", Helvetica, Arial, serif;
+  font-weight         : 900;
+  font-style          : normal;
+  font-size           : 20.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : left;
+  line-height         : 25.0px;
+}
+.dashboardpage .elementsettingsheader .elementsettingsheader1 .skillscore .skillscore251 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 271px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 11.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : left;
+  line-height         : 13.0px;
+}
+.dashboardpage .elementsettingsheader .elementsettingsheader1 .skillscore .presentation {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 26px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 141px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 11.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : right;
+  line-height         : 13.0px;
+}
+.dashboardpage .elementsettingsheader .elementsettingsheader1 .skillscore .value {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 163px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 11.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : right;
+  line-height         : 13.0px;
+}
+.dashboardpage .elementsettingsheader .elementsettingsheader1 .skillscore .a147 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 24px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 229px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Source Sans Pro", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : left;
+  line-height         : 15.0px;
+}
+.dashboardpage .elementsettingsheader .elementsettingsheader1 .skillscore .a83 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 232px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Source Sans Pro", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : left;
+  line-height         : 15.0px;
+}
+.dashboardpage .elementsettingsheader .elementsettingsheader1 .class {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : 113px;
+  width               : 81px;
+  position            : absolute;
+  margin              : 0;
+  left                : 589px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .elementsettingsheader .elementsettingsheader1 .class .upgradenow {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 98px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Source Sans Pro", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : left;
+  letter-spacing      : 1.53px;
+  line-height         : 15.0px;
+}
+.dashboardpage .elementsettingsheader .elementsettingsheader1 .class .titan {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 73px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 14px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Source Sans Pro", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : left;
+  letter-spacing      : 1.53px;
+  line-height         : 23.0px;
+}
+.dashboardpage .elementsettingsheader .elementsettingsheader1 .class .skau0308rmklipp20180115132539 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 73px;
+  width               : 75px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .elementsettingsheader .elementsettingsheader1 .ownerwolverinemed {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 28px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 163px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(176, 179, 181, 1.0);
+  text-align          : right;
+  line-height         : 15.0px;
+}
+.dashboardpage .elementsettingsheader .elementsettingsheader1 .jameshowlettu2019sdash {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 163px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Source Sans Pro", Helvetica, Arial, serif;
+  font-weight         : 900;
+  font-style          : normal;
+  font-size           : 22.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : left;
+  letter-spacing      : 1.55px;
+  line-height         : 28.0px;
+}
+.dashboardpage .elementsettingsheader .elementsettingsheader1 .headerelementprofilepic {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 122px;
+  width               : 134px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .elementsettingsheader .elementsettingsheader1 .headerelementprofilepic .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 117px;
+  width               : 126px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .elementsettingsheader .elementsettingsheader1 .headerelementprofilepic .profilepicture {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 122px;
+  width               : 134px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 4px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.dashboardpage .elementsettingsheader .elementsettingsheader1 .headerelementprofilepic .profilepicture .rectangle4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 119px;
+  width               : 130px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  -ms-transform       : rotate(180deg); /* IE 9 */
+  -webkit-transform   : rotate(180deg); /* Chrome, Safari, Opera */
+  transform           : rotate(180deg);
+}
+.dashboardpage .elementsettingsheader .elementsettingsheader1 .headerelementprofilepic .profilepicture .rectangle4copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 116px;
+  width               : 126px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(180deg); /* IE 9 */
+  -webkit-transform   : rotate(180deg); /* Chrome, Safari, Opera */
+  transform           : rotate(180deg);
+}
+.dashboardpage .elementsettingsheader .elementsettingsheader1 .headerelementprofilepic .profilepicture .profilepic {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -14px;
+  height              : 150px;
+  width               : 267px;
+  position            : absolute;
+  margin              : 0;
+  left                : -3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}

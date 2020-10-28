@@ -1,0 +1,1996 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:900,400,700,300|Roboto:400,700,500,300,900');
+
+@font-face {
+  font-family: "FontAwesome";
+  src: url('../fonts/FontAwesome.otf') format("opentype");
+}
+@font-face {
+  font-family: "SourceSansPro-SemiBold";
+  src: url('../fonts/SourceSansPro-SemiBold.ttf') format("truetype");
+}
+
+.homeskillcloud {
+  width               : 100%;
+  min-width           : 1440px;
+  height              : 100vh;
+  min-height          : 930px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.homeskillcloud .skillcloud {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 932px;
+  width               : 1443px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homeskillcloud .skillcloud .skillcloudelements {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 932px;
+  width               : 1443px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homeskillcloud .skillcloud .buttonsearchactive {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 772px;
+  height              : 59px;
+  width               : 173px;
+  position            : absolute;
+  margin              : 0;
+  left                : 636px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homeskillcloud .skillcloud .buttonsearchactive .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 170px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homeskillcloud .skillcloud .buttonsearchactive .buttonsearchactive1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 59px;
+  width               : 173px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homeskillcloud .skillcloud .buttonsearchactive .buttonsearchactive1 .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 59px;
+  width               : 173px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homeskillcloud .skillcloud .buttonsearchactive .buttonsearchactive1 .rectanglecopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 170px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homeskillcloud .skillcloud .buttonsearchactive .buttonsearchactive1 .play {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 20px;
+  height              : 17px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 122px;
+  -ms-transform       : rotate(1deg); /* IE 9 */
+  -webkit-transform   : rotate(1deg); /* Chrome, Safari, Opera */
+  transform           : rotate(1deg);
+  opacity             : 0.9;
+}
+.homeskillcloud .skillcloud .buttonsearchactive .buttonsearchactive1 .txt {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 18px;
+  height              : auto;
+  width               : 88px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "Source Sans Pro", Helvetica, Arial, serif;
+  font-weight         : 900;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : right;
+  letter-spacing      : 1.53px;
+  line-height         : 23.0px;
+}
+.homeskillcloud .skillcloud .skills {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 168px;
+  height              : 528px;
+  width               : 906px;
+  position            : absolute;
+  margin              : 0;
+  left                : 61px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homeskillcloud .skillcloud .skills .production {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 370px;
+  width               : 414px;
+  position            : absolute;
+  margin              : 0;
+  left                : 492px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homeskillcloud .skillcloud .skills .production .skills1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 53px;
+  height              : 317px;
+  width               : 385px;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homeskillcloud .skillcloud .skills .production .skills1 .wholeproject {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 273px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(176, 179, 181, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.homeskillcloud .skillcloud .skills .production .skills1 .producer {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.homeskillcloud .skillcloud .skills .production .skills1 .productiondesigner {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 133px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(176, 179, 181, 1.0);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.homeskillcloud .skillcloud .skills .production .skills1 .productionassistant {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 34px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(176, 179, 181, 1.0);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.homeskillcloud .skillcloud .skills .production .skills1 .artdirector {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 166px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(176, 179, 181, 1.0);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.homeskillcloud .skillcloud .skills .production .skills1 .screenwriter {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 265px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(176, 179, 181, 1.0);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.homeskillcloud .skillcloud .skills .production .skills1 .productioncoordinat {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 67px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(176, 179, 181, 1.0);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.homeskillcloud .skillcloud .skills .production .skills1 .costumedesigner {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 199px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(176, 179, 181, 1.0);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.homeskillcloud .skillcloud .skills .production .skills1 .assistantdirector {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 298px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(176, 179, 181, 1.0);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.homeskillcloud .skillcloud .skills .production .skills1 .productionmanager {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 100px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(176, 179, 181, 1.0);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.homeskillcloud .skillcloud .skills .production .skills1 .locationmanager {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 232px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(176, 179, 181, 1.0);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.homeskillcloud .skillcloud .skills .production .productiontitle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 174px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homeskillcloud .skillcloud .skills .production .productiontitle .production1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 143px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homeskillcloud .skillcloud .skills .production .productiontitle .hashtagfontawesome {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "FontAwesome", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.homeskillcloud .skillcloud .skills .production .hashtagscopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 55px;
+  height              : 315px;
+  width               : 287px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homeskillcloud .skillcloud .skills .production .hashtagscopy .uf292copy9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 271px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "FontAwesome", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(141, 141, 142, 1.0);
+  text-align          : justify;
+  line-height         : 18.0px;
+}
+.homeskillcloud .skillcloud .skills .production .hashtagscopy .uf292 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "FontAwesome", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(237, 22, 55, 1.0);
+  text-align          : justify;
+  line-height         : 18.0px;
+}
+.homeskillcloud .skillcloud .skills .production .hashtagscopy .uf292copy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 66px;
+  height              : auto;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "FontAwesome", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(141, 141, 142, 1.0);
+  text-align          : justify;
+  line-height         : 18.0px;
+}
+.homeskillcloud .skillcloud .skills .production .hashtagscopy .uf292copy4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 132px;
+  height              : auto;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "FontAwesome", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(141, 141, 142, 1.0);
+  text-align          : justify;
+  line-height         : 18.0px;
+}
+.homeskillcloud .skillcloud .skills .production .hashtagscopy .uf292copy6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 198px;
+  height              : auto;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "FontAwesome", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(141, 141, 142, 1.0);
+  text-align          : justify;
+  line-height         : 18.0px;
+}
+.homeskillcloud .skillcloud .skills .production .hashtagscopy .uf292copy8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 264px;
+  height              : auto;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "FontAwesome", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(141, 141, 142, 1.0);
+  text-align          : justify;
+  line-height         : 18.0px;
+}
+.homeskillcloud .skillcloud .skills .production .hashtagscopy .uf292copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 33px;
+  height              : auto;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "FontAwesome", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(141, 141, 142, 1.0);
+  text-align          : justify;
+  line-height         : 18.0px;
+}
+.homeskillcloud .skillcloud .skills .production .hashtagscopy .uf292copy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 99px;
+  height              : auto;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "FontAwesome", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(141, 141, 142, 1.0);
+  text-align          : justify;
+  line-height         : 18.0px;
+}
+.homeskillcloud .skillcloud .skills .production .hashtagscopy .uf292copy5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 165px;
+  height              : auto;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "FontAwesome", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(141, 141, 142, 1.0);
+  text-align          : justify;
+  line-height         : 18.0px;
+}
+.homeskillcloud .skillcloud .skills .production .hashtagscopy .uf292copy7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 231px;
+  height              : auto;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "FontAwesome", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(141, 141, 142, 1.0);
+  text-align          : justify;
+  line-height         : 18.0px;
+}
+.homeskillcloud .skillcloud .skills .production .hashtagscopy .uf292copy91 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 297px;
+  height              : auto;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "FontAwesome", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(141, 141, 142, 1.0);
+  text-align          : justify;
+  line-height         : 18.0px;
+}
+.homeskillcloud .skillcloud .skills .audio {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 403px;
+  width               : 196px;
+  position            : absolute;
+  margin              : 0;
+  left                : 247px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homeskillcloud .skillcloud .skills .audio .skills1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 54px;
+  height              : 349px;
+  width               : 167px;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homeskillcloud .skillcloud .skills .audio .skills1 .soundengineer {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.homeskillcloud .skillcloud .skills .audio .skills1 .musiccomposer {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 33px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(176, 179, 181, 1.0);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.homeskillcloud .skillcloud .skills .audio .skills1 .sfxartist {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 198px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(176, 179, 181, 1.0);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.homeskillcloud .skillcloud .skills .audio .skills1 .foleyartist {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 66px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(176, 179, 181, 1.0);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.homeskillcloud .skillcloud .skills .audio .skills1 .sounddesigner {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 231px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(176, 179, 181, 1.0);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.homeskillcloud .skillcloud .skills .audio .skills1 .soundeditor {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 99px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(176, 179, 181, 1.0);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.homeskillcloud .skillcloud .skills .audio .skills1 .boomoperator {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 264px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(176, 179, 181, 1.0);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.homeskillcloud .skillcloud .skills .audio .skills1 .rerecordingmixer {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 132px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.homeskillcloud .skillcloud .skills .audio .skills1 .musicproducer {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 297px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(176, 179, 181, 1.0);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.homeskillcloud .skillcloud .skills .audio .skills1 .soundtechnician {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 165px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(176, 179, 181, 1.0);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.homeskillcloud .skillcloud .skills .audio .skills1 .soundboardtechnicia {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 330px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(176, 179, 181, 1.0);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.homeskillcloud .skillcloud .skills .audio .audiotitle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 91px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homeskillcloud .skillcloud .skills .audio .audiotitle .audio1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 60px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homeskillcloud .skillcloud .skills .audio .audiotitle .hashtagfontawesome {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "FontAwesome", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.homeskillcloud .skillcloud .skills .audio .hashtags {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 55px;
+  height              : 348px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homeskillcloud .skillcloud .skills .audio .hashtags .uf292 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "FontAwesome", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(237, 22, 55, 1.0);
+  text-align          : justify;
+  line-height         : 18.0px;
+}
+.homeskillcloud .skillcloud .skills .audio .hashtags .uf292copy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 66px;
+  height              : auto;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "FontAwesome", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(141, 141, 142, 1.0);
+  text-align          : justify;
+  line-height         : 18.0px;
+}
+.homeskillcloud .skillcloud .skills .audio .hashtags .uf292copy4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 132px;
+  height              : auto;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "FontAwesome", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(237, 22, 55, 1.0);
+  text-align          : justify;
+  line-height         : 18.0px;
+}
+.homeskillcloud .skillcloud .skills .audio .hashtags .uf292copy6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 198px;
+  height              : auto;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "FontAwesome", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(141, 141, 142, 1.0);
+  text-align          : justify;
+  line-height         : 18.0px;
+}
+.homeskillcloud .skillcloud .skills .audio .hashtags .uf292copy8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 264px;
+  height              : auto;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "FontAwesome", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(141, 141, 142, 1.0);
+  text-align          : justify;
+  line-height         : 18.0px;
+}
+.homeskillcloud .skillcloud .skills .audio .hashtags .uf292copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 33px;
+  height              : auto;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "FontAwesome", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(141, 141, 142, 1.0);
+  text-align          : justify;
+  line-height         : 18.0px;
+}
+.homeskillcloud .skillcloud .skills .audio .hashtags .uf292copy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 99px;
+  height              : auto;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "FontAwesome", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(141, 141, 142, 1.0);
+  text-align          : justify;
+  line-height         : 18.0px;
+}
+.homeskillcloud .skillcloud .skills .audio .hashtags .uf292copy5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 165px;
+  height              : auto;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "FontAwesome", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(141, 141, 142, 1.0);
+  text-align          : justify;
+  line-height         : 18.0px;
+}
+.homeskillcloud .skillcloud .skills .audio .hashtags .uf292copy7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 231px;
+  height              : auto;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "FontAwesome", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(141, 141, 142, 1.0);
+  text-align          : justify;
+  line-height         : 18.0px;
+}
+.homeskillcloud .skillcloud .skills .audio .hashtags .uf292copy9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 297px;
+  height              : auto;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "FontAwesome", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(141, 141, 142, 1.0);
+  text-align          : justify;
+  line-height         : 18.0px;
+}
+.homeskillcloud .skillcloud .skills .audio .hashtags .uf292copy10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 330px;
+  height              : auto;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "FontAwesome", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(141, 141, 142, 1.0);
+  text-align          : justify;
+  line-height         : 18.0px;
+}
+.homeskillcloud .skillcloud .skills .visualcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 502px;
+  width               : 199px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homeskillcloud .skillcloud .skills .visualcopy .a3danimation {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 54px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.homeskillcloud .skillcloud .skills .visualcopy .logger {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 153px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(176, 179, 181, 1.0);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.homeskillcloud .skillcloud .skills .visualcopy .directorofphotogra {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 252px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(176, 179, 181, 1.0);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.homeskillcloud .skillcloud .skills .visualcopy .storyboardartist {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 351px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(176, 179, 181, 1.0);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.homeskillcloud .skillcloud .skills .visualcopy .vfxengineer {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 87px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(176, 179, 181, 1.0);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.homeskillcloud .skillcloud .skills .visualcopy .director {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 186px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(176, 179, 181, 1.0);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.homeskillcloud .skillcloud .skills .visualcopy .lightingartist {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 285px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(176, 179, 181, 1.0);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.homeskillcloud .skillcloud .skills .visualcopy .cameraoperator {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 384px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(176, 179, 181, 1.0);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.homeskillcloud .skillcloud .skills .visualcopy .videographer {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 450px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(176, 179, 181, 1.0);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.homeskillcloud .skillcloud .skills .visualcopy .editor {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 120px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(239, 242, 245, 1.0);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.homeskillcloud .skillcloud .skills .visualcopy .colorist {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 219px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(176, 179, 181, 1.0);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.homeskillcloud .skillcloud .skills .visualcopy .motioncaptureartis {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 318px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(176, 179, 181, 1.0);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.homeskillcloud .skillcloud .skills .visualcopy .a2danimation {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 417px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(176, 179, 181, 1.0);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.homeskillcloud .skillcloud .skills .visualcopy .graphicsartist {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 483px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(176, 179, 181, 1.0);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.homeskillcloud .skillcloud .skills .visualcopy .hashtag1copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 55px;
+  height              : 447px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homeskillcloud .skillcloud .skills .visualcopy .hashtag1copy .uf292 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "FontAwesome", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(237, 22, 55, 1.0);
+  text-align          : justify;
+  line-height         : 18.0px;
+}
+.homeskillcloud .skillcloud .skills .visualcopy .hashtag1copy .uf292copy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 66px;
+  height              : auto;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "FontAwesome", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(237, 22, 55, 1.0);
+  text-align          : justify;
+  line-height         : 18.0px;
+}
+.homeskillcloud .skillcloud .skills .visualcopy .hashtag1copy .uf292copy4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 132px;
+  height              : auto;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "FontAwesome", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(141, 141, 142, 1.0);
+  text-align          : justify;
+  line-height         : 18.0px;
+}
+.homeskillcloud .skillcloud .skills .visualcopy .hashtag1copy .uf292copy6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 198px;
+  height              : auto;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "FontAwesome", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(141, 141, 142, 1.0);
+  text-align          : justify;
+  line-height         : 18.0px;
+}
+.homeskillcloud .skillcloud .skills .visualcopy .hashtag1copy .uf292copy8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 264px;
+  height              : auto;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "FontAwesome", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(141, 141, 142, 1.0);
+  text-align          : justify;
+  line-height         : 18.0px;
+}
+.homeskillcloud .skillcloud .skills .visualcopy .hashtag1copy .uf292copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 33px;
+  height              : auto;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "FontAwesome", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(141, 141, 142, 1.0);
+  text-align          : justify;
+  line-height         : 18.0px;
+}
+.homeskillcloud .skillcloud .skills .visualcopy .hashtag1copy .uf292copy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 99px;
+  height              : auto;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "FontAwesome", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(141, 141, 142, 1.0);
+  text-align          : justify;
+  line-height         : 18.0px;
+}
+.homeskillcloud .skillcloud .skills .visualcopy .hashtag1copy .uf292copy5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 165px;
+  height              : auto;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "FontAwesome", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(141, 141, 142, 1.0);
+  text-align          : justify;
+  line-height         : 18.0px;
+}
+.homeskillcloud .skillcloud .skills .visualcopy .hashtag1copy .uf292copy7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 231px;
+  height              : auto;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "FontAwesome", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(141, 141, 142, 1.0);
+  text-align          : justify;
+  line-height         : 18.0px;
+}
+.homeskillcloud .skillcloud .skills .visualcopy .hashtag1copy .uf292copy9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 297px;
+  height              : auto;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "FontAwesome", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(141, 141, 142, 1.0);
+  text-align          : justify;
+  line-height         : 18.0px;
+}
+.homeskillcloud .skillcloud .skills .visualcopy .hashtag1copy .uf292copy10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 330px;
+  height              : auto;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "FontAwesome", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(141, 141, 142, 1.0);
+  text-align          : justify;
+  line-height         : 18.0px;
+}
+.homeskillcloud .skillcloud .skills .visualcopy .hashtag1copy .uf292copy101 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 363px;
+  height              : auto;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "FontAwesome", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(141, 141, 142, 1.0);
+  text-align          : justify;
+  line-height         : 18.0px;
+}
+.homeskillcloud .skillcloud .skills .visualcopy .hashtag1copy .uf292copy31 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 396px;
+  height              : auto;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "FontAwesome", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(141, 141, 142, 1.0);
+  text-align          : justify;
+  line-height         : 18.0px;
+}
+.homeskillcloud .skillcloud .skills .visualcopy .hashtag1copy .uf292copy71 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 429px;
+  height              : auto;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "FontAwesome", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(141, 141, 142, 1.0);
+  text-align          : justify;
+  line-height         : 18.0px;
+}
+.homeskillcloud .skillcloud .skills .visualcopy .visualtitle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 102px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homeskillcloud .skillcloud .skills .visualcopy .visualtitle .visual {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 71px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homeskillcloud .skillcloud .skills .visualcopy .visualtitle .hashtagfontawesome {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "FontAwesome", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.homeskillcloud .skillcloud .skills .rectangle4copy {
+  background-color    : rgba(47, 50, 54, 1.0);
+  top                 : 53px;
+  height              : 475px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 463px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homeskillcloud .skillcloud .skills .rectangle4copy2 {
+  background-color    : rgba(47, 50, 54, 1.0);
+  top                 : 53px;
+  height              : 475px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 734px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homeskillcloud .skillcloud .skills .rectangle4 {
+  background-color    : rgba(47, 50, 54, 1.0);
+  top                 : 53px;
+  height              : 475px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 218px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homeskillcloud .skillcloud .topelements {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 118px;
+  width               : 1388px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homeskillcloud .skillcloud .topelements .iconsexitx {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 28px;
+  height              : 24px;
+  width               : 26px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1362px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homeskillcloud .skillcloud .topelements .iconsexitx .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 26px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homeskillcloud .skillcloud .topelements .iconsexitx .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 26px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(-270deg); /* IE 9 */
+  -webkit-transform   : rotate(-270deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-270deg);
+  opacity             : 0.7;
+}
+.homeskillcloud .skillcloud .topelements .elementdefinitionbox {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 54px;
+  height              : 64px;
+  width               : 663px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homeskillcloud .skillcloud .topelements .elementdefinitionbox .boxskillsummary {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 8px;
+  height              : 56px;
+  width               : 663px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(74, 73, 74, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homeskillcloud .skillcloud .topelements .elementdefinitionbox .rectangle5 {
+  background-color    : rgba(31, 32, 33, 1.0);
+  top                 : 4px;
+  height              : 10px;
+  width               : 80px;
+  position            : absolute;
+  margin              : 0;
+  left                : 28px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homeskillcloud .skillcloud .topelements .elementdefinitionbox .description {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 20px;
+  height              : auto;
+  width               : 635px;
+  position            : absolute;
+  margin              : 0;
+  left                : 28px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "Source Sans Pro", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(176, 179, 181, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.homeskillcloud .skillcloud .topelements .elementdefinitionbox .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 80px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Source Sans Pro", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(176, 179, 181, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.homeskillcloud .skillcloud .topelements .titlebrowseskills {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 25px;
+  width               : 142px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homeskillcloud .skillcloud .topelements .titlebrowseskills .hashtagfontawesome {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : auto;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "FontAwesome", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.homeskillcloud .skillcloud .topelements .titlebrowseskills .browseskills {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 20px;
+  width               : 108px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
