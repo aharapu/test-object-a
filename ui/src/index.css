@@ -1,15 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:900,400,700,300|Roboto:400,700,500,300,900');
-
-@font-face {
-  font-family: "FontAwesome";
-  src: url('./fonts/FontAwesome.otf') format("opentype");
-}
-@font-face {
-  font-family: "SourceSansPro-SemiBold";
-  src: url('./fonts/SourceSansPro-SemiBold.ttf') format("truetype");
-}
-
 body {
     margin: 0;
     background-color: rgba(42, 44, 47, 1);
+    font-family: 'Roboto', Helvetica, Arial, serif;
+    font-weight: 500;
 }

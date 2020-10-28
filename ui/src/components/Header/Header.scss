@@ -1,0 +1,28 @@
+// @import url('../../css/searchResultsFilters.css');
+
+
+.header {
+    color: white;
+    height: 53px;
+    max-width: 1448px;
+    border: 2px solid rgba(51, 52, 55, 1);
+    display: flex;
+    align-items: center;
+
+    .hashtag {
+        font-family: 'FontAwesome', Helvetica, Arial, serif;
+        font-size: 26px;
+        font-weight: 900;
+        color: rgba(237, 22, 55, 1);
+        margin: 0 5px 0 20px;
+    }
+
+    .title {
+        font-size: 17px;
+        font-weight: 700;
+        color: #6f7073;
+        margin-right: auto;
+    }
+}
+
+

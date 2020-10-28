@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import './App.css';
+import './App.scss';
 import Header from '../Header';
 import Footer from '../Footer';
 import SearchBar from '../SearchBar';
@@ -13,7 +13,7 @@ const App = () => {
     const [searchResults, setSearchResults] = useState([]);
 
     return (
-        <div className="App">
+        <div className="searchresultsfilters">
             <Header data-test="header-component" />
             <aside>
                 <RelatedSearches />
