@@ -1,5 +1,4 @@
 import React, {useState} from 'react'
-import './App.scss';
 import Header from '../Header';
 import Footer from '../Footer';
 import SearchBar from '../SearchBar';
@@ -7,13 +6,14 @@ import Profile from '../Profile';
 import SortResults from '../SortResults';
 import RelatedSearches from '../RelatedSearches';
 import Definition from '../Definition';
+import './App.scss';
 
 const App = () => {
     const [hasDefinition, setHasDefinition] = useState(false);
     const [searchResults, setSearchResults] = useState([]);
 
     return (
-        <div className="searchresultsfilters">
+        <div className="">
             <Header data-test="header-component" />
             <aside>
                 <RelatedSearches />

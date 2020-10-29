@@ -1,28 +1,48 @@
 // @import url('../../css/searchResultsFilters.css');
 
-
 .header {
     color: white;
     height: 53px;
+    width: 100vw;
     max-width: 1448px;
     border: 2px solid rgba(51, 52, 55, 1);
     display: flex;
     align-items: center;
+    justify-content: space-between;
 
-    .hashtag {
-        font-family: 'FontAwesome', Helvetica, Arial, serif;
-        font-size: 26px;
-        font-weight: 900;
-        color: rgba(237, 22, 55, 1);
-        margin: 0 5px 0 20px;
+    .page-title {
+        margin-right: auto;
+        display: flex;
+        align-items: center;
+
+        .hash {
+            font-family: 'FontAwesome', Helvetica, Arial, serif;
+            font-size: 26px;
+            font-weight: 900;
+            color: rgba(237, 22, 55, 1);
+            margin: 0 10px 0 20px;
+        }
+
+        .title {
+            font-size: 17px;
+            font-weight: 700;
+            color: #6f7073;
+        }
+    }
+    .social-links {
+        margin-right: 20px;
+
+        .social-link {
+            margin-right: 5px;
+
+            .social-link-icon {
+                width: 22px;
+                height: 20px;
+            }
+        }
     }
 
-    .title {
-        font-size: 17px;
-        font-weight: 700;
-        color: #6f7073;
-        margin-right: auto;
+    .log-in-out-btn {
+        margin-right: 20px;
     }
 }
-
-
